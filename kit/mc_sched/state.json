@@ -1,0 +1,689 @@
+{
+ "slots": {
+  "2026-10-29 10:00": {
+   "main": [
+    "408588529",
+    "-2856499552608960082"
+   ],
+   "tt": [
+    "408588565",
+    "1012424906515369689"
+   ],
+   "orig_hook": "Which jar is Cyrus's?"
+  },
+  "2026-10-29 18:00": {
+   "main": [
+    "408589106",
+    "6719105230630045167"
+   ],
+   "tt": [
+    "408589159",
+    "-4854585743260302944"
+   ],
+   "orig_hook": "What's the answer?"
+  },
+  "2026-10-29 20:00": {
+   "main": [
+    "408589193",
+    "1991941746819811511"
+   ],
+   "tt": [
+    "408589227",
+    "-5707384004346165512"
+   ],
+   "orig_hook": "Your birth month is your guide"
+  },
+  "2026-10-30 10:00": {
+   "main": [
+    "408589309",
+    "253630139697153823"
+   ],
+   "tt": [
+    "408589342",
+    "22745055836652478"
+   ],
+   "orig_hook": "Which guide fills the machine?"
+  },
+  "2026-10-30 18:00": {
+   "main": [
+    "408589438",
+    "-3517147925650389359"
+   ],
+   "tt": [
+    "408589461",
+    "6618200257437452482"
+   ],
+   "orig_hook": "Find 3 differences in 10 seconds"
+  },
+  "2026-10-30 20:00": {
+   "main": [
+    "408589495",
+    "6106776738648310571"
+   ],
+   "tt": [
+    "408589524",
+    "6431989399489888674"
+   ],
+   "orig_hook": "Day 1 vs day 365"
+  },
+  "2026-10-31 10:00": {
+   "main": [
+    "408589604",
+    "-7919340328607200215"
+   ],
+   "tt": [
+    "408589639",
+    "8322223758661010566"
+   ]
+  },
+  "2026-10-31 16:00": {
+   "main": [
+    "408589672",
+    "-1047794566878507667"
+   ],
+   "tt": [
+    "408589722",
+    "-3418231799810536368"
+   ]
+  },
+  "2026-10-31 18:00": {
+   "main": [
+    "408589765",
+    "-3102361214114381393"
+   ],
+   "tt": [
+    "408589799",
+    "5745957606726060893"
+   ]
+  },
+  "2026-10-31 20:00": {
+   "main": [
+    "408589828",
+    "-3335488140519519756"
+   ],
+   "tt": [
+    "408589855",
+    "3230948562676957826"
+   ]
+  },
+  "2026-11-01 10:00": {
+   "main": [
+    "408589937",
+    "-1944658012569319335"
+   ],
+   "tt": [
+    "408589956",
+    "3470467703558194435"
+   ]
+  },
+  "2026-11-01 16:00": {
+   "main": [
+    "408589979",
+    "1044777846732964845"
+   ],
+   "tt": [
+    "408590006",
+    "5915602327956835424"
+   ]
+  },
+  "2026-11-01 18:00": {
+   "main": [
+    "408590031",
+    "2511962048508412534"
+   ],
+   "tt": [
+    "408590058",
+    "1556468952809951105"
+   ]
+  },
+  "2026-11-01 20:00": {
+   "main": [
+    "408590077",
+    "5066140752340402810"
+   ],
+   "tt": [
+    "408590112",
+    "5371251837746957321"
+   ]
+  },
+  "2026-11-02 10:00": {
+   "main": [
+    "408590209",
+    "-8888055009249506595"
+   ],
+   "tt": [
+    "408590247",
+    "-309192829646582712"
+   ]
+  },
+  "2026-11-02 16:00": {
+   "main": [
+    "408590273",
+    "-9160926125426192436"
+   ],
+   "tt": [
+    "408590296",
+    "6453445702669189790"
+   ]
+  },
+  "2026-11-02 18:00": {
+   "main": [
+    "408590311",
+    "-4843427536429298511"
+   ],
+   "tt": [
+    "408590328",
+    "7324951381341523479"
+   ]
+  },
+  "2026-11-02 20:00": {
+   "main": [
+    "408590361",
+    "-7637199920589485598"
+   ],
+   "tt": [
+    "408590391",
+    "929375747629402942"
+   ]
+  },
+  "2026-11-03 10:00": {
+   "main": [
+    "408590456",
+    "-8273041079796807053"
+   ],
+   "tt": [
+    "408590475",
+    "-4730698616007080987"
+   ]
+  },
+  "2026-11-03 16:00": {
+   "main": [
+    "408590496",
+    "-1733379654550272796"
+   ],
+   "tt": [
+    "408590515",
+    "-4373138547466481873"
+   ]
+  },
+  "2026-11-03 18:00": {
+   "main": [
+    "408590530",
+    "-7873585644192316001"
+   ],
+   "tt": [
+    "408590565",
+    "3583291485995026866"
+   ]
+  },
+  "2026-11-03 20:00": {
+   "main": [
+    "408590587",
+    "701545873954130516"
+   ],
+   "tt": [
+    "408590612",
+    "-2184200079581560087"
+   ]
+  },
+  "2026-11-04 10:00": {
+   "main": [
+    "408590668",
+    "-3310459806068028263"
+   ],
+   "tt": [
+    "408590690",
+    "-7775538890005265717"
+   ]
+  },
+  "2026-11-04 16:00": {
+   "main": [
+    "408590721",
+    "3018972214036808900"
+   ],
+   "tt": [
+    "408590749",
+    "3652536971168728522"
+   ]
+  },
+  "2026-11-04 20:00": {
+   "main": [
+    "408590815",
+    "4487291682382823875"
+   ],
+   "tt": [
+    "408590835",
+    "7231203008004833877"
+   ]
+  },
+  "2026-11-05 10:00": {
+   "main": [
+    "408590880",
+    "106711878710084345"
+   ],
+   "tt": [
+    "408590897",
+    "-6026485148707567091"
+   ]
+  },
+  "2026-11-05 16:00": {
+   "main": [
+    "408590916",
+    "-7578991614787434160"
+   ],
+   "tt": [
+    "408590945",
+    "7499483337266905672"
+   ]
+  },
+  "2026-11-05 18:00": {
+   "main": [
+    "408590970",
+    "-8085980699959934480"
+   ],
+   "tt": [
+    "408590993",
+    "-8150698600551528896"
+   ]
+  },
+  "2026-11-05 20:00": {
+   "main": [
+    "408591013",
+    "899908999691454047"
+   ],
+   "tt": [
+    "408591051",
+    "-7124578912112129109"
+   ]
+  },
+  "2026-11-06 10:00": {
+   "main": [
+    "408591105",
+    "-5123437207201758341"
+   ],
+   "tt": [
+    "408591126",
+    "4053864206726482469"
+   ]
+  },
+  "2026-11-06 16:00": {
+   "main": [
+    "408591146",
+    "-5128651624726312865"
+   ],
+   "tt": [
+    "408591170",
+    "-4349650838467492648"
+   ]
+  },
+  "2026-11-06 18:00": {
+   "main": [
+    "408591197",
+    "-2538572742897218320"
+   ],
+   "tt": [
+    "408591219",
+    "-1868722095489134697"
+   ]
+  },
+  "2026-11-06 20:00": {
+   "main": [
+    "408591241",
+    "-5233507156924022222"
+   ],
+   "tt": [
+    "408591258",
+    "-7402576938537565419"
+   ]
+  },
+  "2026-11-07 10:00": {
+   "main": [
+    "408591323",
+    "1600309899301046323"
+   ],
+   "tt": [
+    "408591341",
+    "-5691332725087320665"
+   ]
+  },
+  "2026-11-07 16:00": {
+   "main": [
+    "408591362",
+    "4141610263427433503"
+   ],
+   "tt": [
+    "408591381",
+    "-3817291134180965439"
+   ]
+  },
+  "2026-11-07 18:00": {
+   "main": [
+    "408591404",
+    "4572747214231980102"
+   ],
+   "tt": [
+    "408591428",
+    "5426409451629529852"
+   ]
+  },
+  "2026-11-07 20:00": {
+   "main": [
+    "408591459",
+    "4516983477474772743"
+   ],
+   "tt": [
+    "408591464",
+    "8984543860404994127"
+   ]
+  },
+  "2026-11-08 10:00": {
+   "main": [
+    "408591531",
+    "-6685935224426773389"
+   ],
+   "tt": [
+    "408591544",
+    "-456772068407423402"
+   ]
+  },
+  "2026-11-08 16:00": {
+   "main": [
+    "408591570",
+    "-1259610357128280092"
+   ],
+   "tt": [
+    "408591589",
+    "3740019658535620019"
+   ]
+  },
+  "2026-11-08 18:00": {
+   "main": [
+    "408591614",
+    "8638622949355242065"
+   ],
+   "tt": [
+    "408591640",
+    "890214049566378955"
+   ]
+  },
+  "2026-11-08 20:00": {
+   "main": [
+    "408591666",
+    "-6213177193154461559"
+   ],
+   "tt": [
+    "408591700",
+    "-5785903962576500491"
+   ]
+  },
+  "2026-11-09 10:00": {
+   "main": [
+    "408591792",
+    "5893996413020032482"
+   ],
+   "tt": [
+    "408591821",
+    "7362691610020627062"
+   ]
+  },
+  "2026-11-09 16:00": {
+   "main": [
+    "408591852",
+    "-7433231415171004530"
+   ],
+   "tt": [
+    "408591874",
+    "-3221360688201774498"
+   ]
+  },
+  "2026-11-09 18:00": {
+   "main": [
+    "408591905",
+    "-109483205016533647"
+   ],
+   "tt": [
+    "408591933",
+    "-7084830465344843791"
+   ]
+  },
+  "2026-11-09 20:00": {
+   "main": [
+    "408591967",
+    "5081543152392097249"
+   ],
+   "tt": [
+    "408591994",
+    "6328059159889857373"
+   ]
+  }
+ },
+ "src": {
+  "6": {
+   "l1": "Find 3 differences in 10 seconds or you're an NPC ⏱️",
+   "l2": "How many did you get? 👇",
+   "yt": "Find 3 differences in 10 seconds or you're an NPC ⏱️"
+  },
+  "7": {
+   "l1": "Day 1 vs day 365 💪",
+   "l2": "What day are you on? 👇",
+   "yt": "Day 1 vs day 365 💪 Same quest. Every day."
+  },
+  "12": {
+   "l1": "+2 XP. Zero potions left ⚔️",
+   "l2": "What's the most overkill thing you've ever done in a game? 👇",
+   "yt": "+2 XP. Zero potions left ⚔️ Most overkill thing you've done in a game?"
+  },
+  "14": {
+   "l1": "Watch carefully 👀",
+   "l2": "Where is the gummy? A, B or C 👇",
+   "yt": "Watch carefully 👀 Where is the gummy?"
+  },
+  "16": {
+   "l1": "IQ test 🧠",
+   "l2": "Only 1% get this. What's your final answer? 👇",
+   "yt": "IQ test: only 1% get this 🧠"
+  },
+  "17": {
+   "l1": "Play along with the beat 🥁",
+   "l2": "How far did you make it? 👇",
+   "yt": "Play along with the beat 🥁 How far did you make it?"
+  },
+  "18": {
+   "l1": "Think you can nail it? Only 0.1% can 🎯",
+   "l2": "Pause when the gummy fits the outline 👇",
+   "yt": "Think you can nail it? Only 0.1% can 🎯"
+  },
+  "21": {
+   "l1": "Pause and match all 4 to reveal your guild 🧪",
+   "l2": "Which guild did you get? 👇",
+   "yt": "Pause and match all 4 to reveal your guild 🧪"
+  },
+  "23": {
+   "l1": "Rank the guides 🏆",
+   "l2": "Drop your tier list 👇",
+   "yt": "Rank the guides 🏆 Drop your tier list"
+  },
+  "25": {
+   "l1": "Only 1% can find this Hollow 👀",
+   "l2": "Comment when you spot him 👇",
+   "yt": "Only 1% can find this Hollow 👀"
+  },
+  "26": {
+   "l1": "Put the gummy in the bottle 🌙",
+   "l2": "Pause when it drops in. Did you make it? 👇",
+   "yt": "Put the gummy in the bottle 🌙"
+  },
+  "27": {
+   "l1": "+1 XP a day 📈",
+   "l2": "What are you leveling up? 👇",
+   "yt": "+1 XP a day adds up 📈"
+  },
+  "29": {
+   "l1": "Guide battle ⚔️",
+   "l2": "Who's your pick before it starts? 👇",
+   "yt": "Guide battle ⚔️ Who's your pick?"
+  },
+  "30": {
+   "l1": "Screenshot the second the gummy fits perfectly 📸",
+   "l2": "How close did you get? 👇",
+   "yt": "Screenshot the second the gummy fits perfectly 📸",
+   "sq": "wfg"
+  },
+  "34": {
+   "l1": "Find the gummy 👀",
+   "l2": "Where is it? 👇",
+   "yt": "Find the gummy 👀"
+  },
+  "36": {
+   "l1": "Pause the video on 99 ⏸️",
+   "l2": "What number did you get? 👇",
+   "yt": "Pause the video on 99 ⏸️"
+  },
+  "38": {
+   "l1": "Which gummy fits the outline? 🧩",
+   "l2": "Comment your answer 👇",
+   "yt": "Which gummy fits the outline? 🧩"
+  },
+  "40": {
+   "l1": "Still need a pass 🛡️",
+   "l2": "Which NPC blocked your path the longest? 👇",
+   "yt": "Still need a pass 🛡️ Which NPC blocked your path the longest?"
+  },
+  "42": {
+   "l1": "Pause when both fit perfectly ⏸️",
+   "l2": "Noob, Pro, Hacker or God. How far did you make it? 👇",
+   "yt": "Pause when both fit perfectly ⏸️ Noob to God"
+  },
+  "43": {
+   "l1": "Finally made it to a save point 💾",
+   "l2": "You're doing better than you think.",
+   "yt": "Finally made it to a save point 💾"
+  },
+  "44": {
+   "l1": "Lock your eyes on the glowing gummy 👀",
+   "l2": "Did you keep track of it? 👇",
+   "yt": "Lock your eyes on the glowing gummy 👀"
+  },
+  "45": {
+   "l1": "Which guild are you? 🛡️",
+   "l2": "Pick one each round and count your colors. Comment your guild 👇",
+   "yt": "Which guild are you? 🛡️ Count your colors"
+  },
+  "47": {
+   "l1": "Motivation vs discipline 🔥",
+   "l2": "Which one gets you through the quest? 👇",
+   "yt": "Motivation vs discipline 🔥",
+   "music": "Music: Start the Day by Lee Rosevere, CC BY 4.0"
+  },
+  "49": {
+   "l1": "Find the odd gummy in 5 seconds ⏱️",
+   "l2": "Comment where it is 👇",
+   "yt": "Find the odd gummy in 5 seconds ⏱️"
+  },
+  "51": {
+   "l1": "Pick your marble: Cleo or Cyrus 🔵🟠",
+   "l2": "Did yours win? 👇",
+   "yt": "Pick your marble: Cleo or Cyrus 🔵🟠"
+  },
+  "57": {
+   "l1": "How many Hollows do you see? 👀",
+   "l2": "Comment your answer 👇",
+   "yt": "How many Hollows do you see? 👀"
+  },
+  "58": {
+   "l1": "Pick your marble 🏁",
+   "l2": "Did your marble win? 👇",
+   "yt": "Pick your marble before the race starts 🏁"
+  },
+  "60": {
+   "l1": "Only 1 difference 🛡️",
+   "l2": "Can you spot it? 👇",
+   "yt": "Only 1 difference. Can you spot it? 🛡️"
+  },
+  "62": {
+   "l1": "Which gummy makes it fall? 🗼",
+   "l2": "Comment your guess before the tower drops 👇",
+   "yt": "Which gummy makes the tower fall? 🗼"
+  },
+  "64": {
+   "l1": "Each ball has only 4 seconds to escape ⏳",
+   "l2": "Pick one before it starts 👇",
+   "yt": "Each ball has only 4 seconds to escape ⏳"
+  },
+  "66": {
+   "l1": "Which gummy fits the outline? 🌙",
+   "l2": "Melatonin, Mushroom, Creatine or ACV 👇",
+   "yt": "Which gummy fits the outline? 🌙"
+  },
+  "72": {
+   "l1": "Watch carefully 👀",
+   "l2": "Which Cleo has the gummy? A, B or C 👇",
+   "yt": "Watch carefully 👀 Which Cleo has the gummy?"
+  },
+  "75": {
+   "l1": "Think you can nail it? Only 0.1% can 🎯",
+   "l2": "Pause when the gummy fits the outline 👇",
+   "yt": "Think you can nail it? Only 0.1% can 🎯"
+  },
+  "77": {
+   "l1": "Musical chairs 🎵",
+   "l2": "Slapping is allowed. Pick a player 👇",
+   "yt": "Musical chairs, slapping allowed 🎵"
+  },
+  "81": {
+   "l1": "Outrun the shadow 🌑",
+   "l2": "Which guide makes it out? 👇",
+   "yt": "Outrun the shadow: which guide makes it out? 🌑"
+  },
+  "82": {
+   "l1": "Can the Hollow escape? 🧱",
+   "l2": "Every bounce adds a brick. Comment your guess 👇",
+   "yt": "Can the Hollow escape? Every bounce adds a brick 🧱"
+  },
+  "83": {
+   "l1": "Pause when it perfectly mirrors ⏸️",
+   "l2": "What was your score? 👇",
+   "yt": "Pause when it perfectly mirrors ⏸️"
+  },
+  "85": {
+   "l1": "Arena war ⚔️",
+   "l2": "5 fighters, one arena. Pick one 👇",
+   "yt": "Arena war: 5 fighters, one arena ⚔️"
+  },
+  "87": {
+   "l1": "Pause when all 3 gummies fit ⏸️",
+   "l2": "99% fail. What time did you get? 👇",
+   "yt": "Pause when all 3 gummies fit. 99% fail ⏸️"
+  },
+  "88": {
+   "l1": "Don't blink 👁️",
+   "l2": "Pick a ball before one escapes 👇",
+   "yt": "Don't blink until one escapes 👁️"
+  },
+  "89": {
+   "l1": "Last one in the ring wins 🥊",
+   "l2": "Pick a player 👇",
+   "yt": "Last one in the ring wins 🥊"
+  },
+  "90": {
+   "l1": "Slimes eat all the glass 🟢",
+   "l2": "How fast do you think they break through? 👇",
+   "yt": "Slimes eat all the glass 🟢"
+  },
+  "93": {
+   "l1": "Whoever gets 3 gummies wins, powers on ⚡",
+   "l2": "Pick a player 👇",
+   "yt": "Whoever gets 3 gummies wins, powers on ⚡"
+  },
+  "95": {
+   "l1": "Build Joy's perfect charm 🌿",
+   "l2": "What would you put in yours? 👇",
+   "yt": "Build Joy's perfect charm 🌿"
+  },
+  "96": {
+   "l1": "Choose your digger ⛏️",
+   "l2": "Who digs up the treasure? 👇",
+   "yt": "Choose your digger: who finds the treasure? ⛏️"
+  }
+ }
+}

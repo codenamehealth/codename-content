@@ -1,0 +1,606 @@
+{
+ "note": "Epidemic tracks used on Code Name reels. Read before picking a track; a track may go on at most 2 reels, never the same day or back-to-back slots. Append each pick as soon as it is chosen.",
+ "tracks": [
+  {
+   "id": "d7f0289f-f59b-3cb0-8c54-f57d87c4e89d",
+   "title": "Tiger Tracks",
+   "artist": "Lexica",
+   "bpm": 138,
+   "files": [
+    "epidemic/tracks/tiger_tracks__006.wav"
+   ],
+   "reels": [
+    "006"
+   ],
+   "file": "epidemic/tracks/tiger_tracks__006.wav"
+  },
+  {
+   "id": "1277f4b9-f871-4969-a9ad-7a8a3e23ad19",
+   "title": "BLACKWATER",
+   "artist": "STRLGHT",
+   "bpm": 100,
+   "files": [
+    "epidemic/tracks/blackwater__007.wav"
+   ],
+   "reels": [
+    "007"
+   ],
+   "file": "epidemic/tracks/blackwater__007.wav"
+  },
+  {
+   "id": "3cde129e-0ff6-4801-8b95-ef66ddf59479",
+   "title": "Keeping My Head in the Sand",
+   "artist": "Speedy The Spider",
+   "bpm": 136,
+   "files": [
+    "epidemic/tracks/keeping_my_head_in_the_sand__012.wav"
+   ],
+   "reels": [
+    "012"
+   ],
+   "file": "epidemic/tracks/keeping_my_head_in_the_sand__012.wav"
+  },
+  {
+   "id": "3c55192f-f581-406b-aa29-e21cadcaa19a",
+   "title": "Pixels",
+   "artist": "Ava Low",
+   "bpm": 118,
+   "files": [
+    "epidemic/tracks/pixels__014.wav"
+   ],
+   "reels": [
+    "014"
+   ],
+   "file": "epidemic/tracks/pixels__014.wav"
+  },
+  {
+   "id": "3fee4f05-25f5-44d5-999f-593332461945",
+   "title": "Trickster",
+   "artist": "Ludvig Moulin",
+   "bpm": 112,
+   "files": [
+    "epidemic/tracks/trickster__016.wav"
+   ],
+   "reels": [
+    "016"
+   ],
+   "file": "epidemic/tracks/trickster__016.wav"
+  },
+  {
+   "id": "f4366946-17b9-44fc-945d-705a19cd229b",
+   "title": "Coin Toss",
+   "artist": "A P O L L O",
+   "bpm": 136,
+   "files": [
+    "epidemic/tracks/coin_toss__018.wav"
+   ],
+   "reels": [
+    "018"
+   ],
+   "file": "epidemic/tracks/coin_toss__018.wav"
+  },
+  {
+   "id": "16ac9e4f-fad4-4ea2-b7bf-1d690b63d566",
+   "title": "A Lil BIT",
+   "artist": "Rocket Jr",
+   "bpm": 155,
+   "files": [
+    "epidemic/tracks/a_lil_bit__021.wav"
+   ],
+   "reels": [
+    "021"
+   ],
+   "file": "epidemic/tracks/a_lil_bit__021.wav"
+  },
+  {
+   "id": "03e71f7f-ad6f-4845-9fbd-9fce110cfa5e",
+   "title": "STYLE",
+   "artist": "Ballpoint",
+   "bpm": 118,
+   "files": [
+    "epidemic/tracks/style__023.wav"
+   ],
+   "reels": [
+    "023"
+   ],
+   "file": "epidemic/tracks/style__023.wav"
+  },
+  {
+   "id": "074c88b3-da6e-4575-98ea-16af038a4327",
+   "title": "Tokyo Boy",
+   "artist": "Akibakid",
+   "bpm": 134,
+   "files": [
+    "epidemic/tracks/tokyo_boy__025.wav"
+   ],
+   "reels": [
+    "025"
+   ],
+   "file": "epidemic/tracks/tokyo_boy__025.wav"
+  },
+  {
+   "id": "f989a01d-1d73-3266-b4ed-ba26ed1e1b84",
+   "title": "Play Me Like That Video Game",
+   "artist": "Josef Bel Habib",
+   "bpm": 160,
+   "files": [
+    "epidemic/tracks/play_me_like_that_video_game__026.wav"
+   ],
+   "reels": [
+    "026"
+   ],
+   "file": "epidemic/tracks/play_me_like_that_video_game__026.wav"
+  },
+  {
+   "id": "72ead9c2-60c5-4e9f-9f5d-bbdb4aeaaca3",
+   "title": "Moving Up",
+   "artist": "Origo",
+   "bpm": 110,
+   "files": [
+    "epidemic/tracks/moving_up__027.wav"
+   ],
+   "reels": [
+    "027"
+   ],
+   "file": "epidemic/tracks/moving_up__027.wav"
+  },
+  {
+   "id": "f031ac3b-1858-424a-9890-a2ba10487daf",
+   "title": "Cheetah Print",
+   "artist": "Cushy",
+   "bpm": 121,
+   "files": [
+    "epidemic/tracks/cheetah_print__030.wav"
+   ],
+   "reels": [
+    "030"
+   ],
+   "file": "epidemic/tracks/cheetah_print__030.wav"
+  },
+  {
+   "id": "68078cf9-e338-4887-9aca-87db729d4279",
+   "title": "Press X Twice",
+   "artist": "Lexica",
+   "bpm": 130,
+   "files": [
+    "epidemic/tracks/press_x_twice__034.wav"
+   ],
+   "reels": [
+    "034"
+   ],
+   "file": "epidemic/tracks/press_x_twice__034.wav"
+  },
+  {
+   "id": "4d4295e6-ad8e-4bcb-9adf-ff40de85d00f",
+   "title": "HYPOWER",
+   "artist": "Akibakid",
+   "bpm": 141,
+   "files": [
+    "epidemic/tracks/hypower__036.wav"
+   ],
+   "reels": [
+    "036"
+   ],
+   "file": "epidemic/tracks/hypower__036.wav"
+  },
+  {
+   "id": "a31c4ccc-b38e-3d3f-bdd9-b26fa6cacc02",
+   "title": "Feeling Alright",
+   "artist": "Gavin Luke",
+   "bpm": 115,
+   "files": [
+    "epidemic/tracks/feeling_alright__038.wav"
+   ],
+   "reels": [
+    "038"
+   ],
+   "file": "epidemic/tracks/feeling_alright__038.wav"
+  },
+  {
+   "id": "29f46264-0ebf-4a99-b792-c05e10969712",
+   "title": "Don't Funk with Me",
+   "artist": "Daniel Fridell",
+   "bpm": 97,
+   "files": [
+    "epidemic/tracks/don_t_funk_with_me__040.wav"
+   ],
+   "reels": [
+    "040"
+   ],
+   "file": "epidemic/tracks/don_t_funk_with_me__040.wav"
+  },
+  {
+   "id": "6d13a00c-5b93-37bf-8bfa-391fc5c0efd8",
+   "title": "Caribbean Arcade",
+   "artist": "Christian Nanzell",
+   "bpm": 148,
+   "files": [
+    "epidemic/tracks/caribbean_arcade__042.wav"
+   ],
+   "reels": [
+    "042"
+   ],
+   "file": "epidemic/tracks/caribbean_arcade__042.wav"
+  },
+  {
+   "id": "4b0f48bb-ae60-4be3-8f5e-374a4e95ba4c",
+   "title": "Epicness",
+   "artist": "Daniel Fridell, Sven Lindvall",
+   "bpm": 166,
+   "files": [
+    "epidemic/tracks/epicness__043.wav"
+   ],
+   "reels": [
+    "043"
+   ],
+   "file": "epidemic/tracks/epicness__043.wav"
+  },
+  {
+   "id": "3d59ec8e-9ad0-3446-87b4-b2f57773c457",
+   "title": "Tracker",
+   "artist": "Christoffer Moe Ditlevsen",
+   "bpm": 90,
+   "files": [
+    "epidemic/tracks/tracker__044.wav"
+   ],
+   "reels": [
+    "044"
+   ],
+   "file": "epidemic/tracks/tracker__044.wav"
+  },
+  {
+   "id": "0418260b-38fc-413b-894a-d0aafbce50ea",
+   "title": "Overdrive",
+   "artist": "Taelimb",
+   "bpm": 140,
+   "files": [
+    "epidemic/tracks/overdrive__045.wav"
+   ],
+   "reels": [
+    "045"
+   ],
+   "file": "epidemic/tracks/overdrive__045.wav"
+  },
+  {
+   "id": "3b8a8245-ed30-4b65-8415-676642b0ab00",
+   "title": "Closer",
+   "artist": "Tigerblood Jewel",
+   "bpm": 120,
+   "files": [
+    "epidemic/tracks/closer__047.wav"
+   ],
+   "reels": [
+    "047"
+   ],
+   "file": "epidemic/tracks/closer__047.wav"
+  },
+  {
+   "id": "01c8d6d0-fc26-4d6e-9c74-a5cab3e3cb7b",
+   "title": "Shake (B)IT",
+   "artist": "Rocket Jr",
+   "bpm": 121,
+   "files": [
+    "epidemic/tracks/shake_b_it__049.wav"
+   ],
+   "reels": [
+    "049"
+   ],
+   "file": "epidemic/tracks/shake_b_it__049.wav"
+  },
+  {
+   "id": "f0bcdd3b-5344-4f2b-bb32-0d5c71478a05",
+   "title": "Glitching Through the Sky",
+   "artist": "William Benckert",
+   "bpm": 170,
+   "files": [
+    "epidemic/tracks/glitching_through_the_sky__051.wav"
+   ],
+   "reels": [
+    "051"
+   ],
+   "file": "epidemic/tracks/glitching_through_the_sky__051.wav"
+  },
+  {
+   "id": "4d0d1e98-5bbe-4812-a644-c985484f98a2",
+   "title": "8-bit Sheriff",
+   "artist": "Wave Saver",
+   "bpm": 118,
+   "files": [
+    "epidemic/tracks/8_bit_sheriff__057.wav"
+   ],
+   "reels": [
+    "057"
+   ],
+   "file": "epidemic/tracks/8_bit_sheriff__057.wav"
+  },
+  {
+   "id": "135e6f1b-ec34-42f1-a72e-a6f60f5be56f",
+   "title": "Pet Detective",
+   "artist": "Stationary Sign",
+   "bpm": 158,
+   "files": [
+    "epidemic/tracks/pet_detective__060.wav"
+   ],
+   "reels": [
+    "060"
+   ],
+   "file": "epidemic/tracks/pet_detective__060.wav"
+  },
+  {
+   "id": "d1313adb-8e57-3c40-84a6-a3b9eeab4321",
+   "title": "Glitz At The Ritz",
+   "artist": "Jules Gaia",
+   "bpm": 128,
+   "files": [
+    "epidemic/tracks/glitz_at_the_ritz__072.wav"
+   ],
+   "reels": [
+    "072"
+   ],
+   "file": "epidemic/tracks/glitz_at_the_ritz__072.wav"
+  },
+  {
+   "id": "55c15cbf-a223-47c7-a84d-257d084fa182",
+   "title": "Back to Business",
+   "artist": "William Benckert",
+   "bpm": 108,
+   "files": [
+    "epidemic/tracks/back_to_business__075.wav"
+   ],
+   "reels": [
+    "075"
+   ],
+   "file": "epidemic/tracks/back_to_business__075.wav"
+  },
+  {
+   "id": "11150bde-2461-43a3-bdc3-a55a28d09921",
+   "title": "Face the Fear",
+   "artist": "Purple Dive",
+   "bpm": 174,
+   "files": [
+    "epidemic/tracks/face_the_fear__082.wav"
+   ],
+   "reels": [
+    "082"
+   ],
+   "file": "epidemic/tracks/face_the_fear__082.wav"
+  },
+  {
+   "id": "99748310-dd02-4f40-a000-97e6c9e1c079",
+   "title": "Give It to Me",
+   "artist": "Ooyy",
+   "bpm": 146,
+   "files": [
+    "epidemic/tracks/give_it_to_me__083.wav"
+   ],
+   "reels": [
+    "083"
+   ],
+   "file": "epidemic/tracks/give_it_to_me__083.wav"
+  },
+  {
+   "id": "741b8aef-5af2-4b64-b071-949776624621",
+   "title": "Ninja Skills",
+   "artist": "Ava Low",
+   "bpm": 95,
+   "files": [
+    "epidemic/tracks/ninja_skills__087.wav"
+   ],
+   "reels": [
+    "087"
+   ],
+   "file": "epidemic/tracks/ninja_skills__087.wav"
+  },
+  {
+   "id": "90ca1b20-41de-4413-a83f-5c11778c86eb",
+   "title": "Hyperactivity",
+   "artist": "Johan Gl\u00f6ssner",
+   "bpm": 178,
+   "files": [
+    "epidemic/tracks/hyperactivity__090.wav"
+   ],
+   "reels": [
+    "090"
+   ],
+   "file": "epidemic/tracks/hyperactivity__090.wav"
+  },
+  {
+   "id": "00dcfce1-2c37-4c4e-86f2-d114dd459de5",
+   "title": "Fight Club",
+   "artist": "Cushy",
+   "bpm": 120,
+   "files": [
+    "epidemic/tracks/fight_club__093.wav"
+   ],
+   "reels": [
+    "093"
+   ],
+   "file": "epidemic/tracks/fight_club__093.wav"
+  },
+  {
+   "id": "395aba4b-e919-4288-93af-fb39d3bc5a04",
+   "title": "Electric Desire",
+   "artist": "Daniel Fridell",
+   "bpm": 115,
+   "files": [
+    "epidemic/tracks/electric_desire__095.wav"
+   ],
+   "reels": [
+    "095"
+   ],
+   "file": "epidemic/tracks/electric_desire__095.wav"
+  },
+  {
+   "id": "86242f65-151f-41eb-9ec7-e202a43fa38c",
+   "title": "Dance of the Pixel Birds",
+   "artist": "William Benckert",
+   "bpm": 92,
+   "files": [
+    "epidemic/tracks/dance_of_the_pixel_birds__096.wav"
+   ],
+   "reels": [
+    "096"
+   ],
+   "file": "epidemic/tracks/dance_of_the_pixel_birds__096.wav"
+  },
+  {
+   "id": "883ddb9c-0423-4c53-983c-208bb652abbc",
+   "title": "Make It Through",
+   "artist": "Lupus Nocte",
+   "bpm": 170,
+   "files": [
+    "epidemic/tracks/make_it_through__100.wav"
+   ],
+   "reels": [
+    "100"
+   ],
+   "file": "epidemic/tracks/make_it_through__100.wav"
+  },
+  {
+   "id": null,
+   "title": "Not Done with You (Instrumental Version)",
+   "artist": "House Of Say",
+   "bpm": null,
+   "files": [],
+   "reels": [
+    "028"
+   ],
+   "note": "picked and mixed by the #028 agent (beat-aligned), file not in this folder",
+   "file": null
+  },
+  {
+   "id": "bcb95aec-cbee-4b49-a2e8-8014c07b0164",
+   "title": "8-bit Win (A Nice Final Boss)",
+   "artist": "VELDA",
+   "bpm": 147,
+   "files": [
+    "epidemic/tracks/8_bit_win_a_nice_final_boss__005.wav"
+   ],
+   "file": "epidemic/tracks/8_bit_win_a_nice_final_boss__005.wav",
+   "reels": [
+    "005"
+   ],
+   "note": "edit job cff6f2d8-5863-4e5c-85b9-4c401dcfb8cf edit 7dcbc13e-71fc-45a4-8b86-449da0d300c0"
+  },
+  {
+   "id": "37ba6c10-2abd-33c6-b14a-5c27045bf9a9",
+   "title": "Nintendo Revolution",
+   "artist": "Rolla Coasta",
+   "bpm": 136,
+   "files": [
+    "epidemic/tracks/nintendo_revolution__011.wav"
+   ],
+   "file": "epidemic/tracks/nintendo_revolution__011.wav",
+   "reels": [
+    "011"
+   ],
+   "note": "edit job 0c9d611d-83c3-40c5-971c-4390f7f8237c edit 30ebf366-6283-4716-ad12-87c331adb953"
+  },
+  {
+   "id": "0beeea53-efbb-370e-939c-88fff6566af6",
+   "title": "Rep",
+   "artist": "Carl Henriksson",
+   "bpm": 170,
+   "files": [
+    "epidemic/tracks/rep__035.wav"
+   ],
+   "file": "epidemic/tracks/rep__035.wav",
+   "reels": [
+    "035"
+   ],
+   "note": "edit job 340bd57a-82f4-4a59-963e-9692b1983874 edit fa85e04a-4ed6-42d3-bbb3-8574f06ee678"
+  },
+  {
+   "artist": "Jules Gaia",
+   "bpm": 140,
+   "file": "epidemic/tracks/break_fast__n01.wav",
+   "files": [
+    "epidemic/tracks/break_fast__n01.wav"
+   ],
+   "id": "57b78d5f-a228-48c1-9bf9-ed1eda8a9d13",
+   "reels": [
+    "n01"
+   ],
+   "title": "Break Fast",
+   "note": "edit job 737f0ecc-77b9-46d8-954b-934cf38ce950 edit ca3eecb6-209e-44e0-acbb-7ce650bb4d62 (loopable 19.767s, rotated 8 bars); n01 shelved Oct 29 (wrong reference), track not posted"
+  },
+  {
+   "artist": "Taelimb",
+   "bpm": 176,
+   "file": "epidemic/tracks/padlock__n02.wav",
+   "files": [
+    "epidemic/tracks/padlock__n02.wav"
+   ],
+   "id": "0f2b5a94-e729-4df4-aefb-3aff8333cf20",
+   "reels": [
+    "n02"
+   ],
+   "title": "Padlock",
+   "note": "edit job df05ccac-6b81-42aa-83d0-67d728db378b edit f811dba0-7a75-4cdf-8210-84fece3c47a5 (loopable 20.767s, rotated 7 bars); pass 2 re-edit 17.967s job 75c46464-a336-4850-9e3e-9e8c45bdfae9"
+  },
+  {
+   "artist": "August Wilhelmsson",
+   "bpm": 120,
+   "file": "epidemic/tracks/drummer_s_game_1__n03.wav",
+   "files": [
+    "epidemic/tracks/drummer_s_game_1__n03.wav"
+   ],
+   "id": "309b577d-165f-3a6b-a50a-d1a80928c633",
+   "reels": [
+    "n03"
+   ],
+   "title": "Drummer's Game 1",
+   "note": "edit job d64d49c3-fe54-4b26-85f7-5794f5a97770 edit 4e3783f1-1967-4b80-a025-8944bbedfbb0 (loopable 18.1s); Oct 29 rebuild: edit job 4fd649a9-7201-4946-a24e-00507ece035f edit ba27e01d-48f9-4f68-8b7a-67bd92db3a4b (loopable 22.533s, preferred from 88s, rotated 9 bars) replaces the 18.1s edit in drummer_s_game_1__n03.wav; Oct 30 corridor-maze rebuild: edit job 271bce2f-3ed0-482c-bb33-30b4518a346c edit 89168966-c46f-4c83-811e-9389ede3a572 (loopable 22.367s, preferred from 88s, rotated 10 bars) now in drummer_s_game_1__n03.wav; Oct 30 final (scoreboard-up / earlier-paced rebuild): edit job 41b091c0-ac5c-4d28-822d-90c5ebd6c29a edit 5d984851-b892-436b-ae23-1998bf27d4e2 (loopable 19.767s, music running through the 15.87s win) now in drummer_s_game_1__n03.wav; Oct 30 pure-physics re-run: edit job aa40142f-4bcc-4561-87fa-a10db4bec740 edit 6e6ffb6e-3fdb-490e-b122-a9b8b28c1371 (loopable 20.133s, music running through the 16.23s win) now in drummer_s_game_1__n03.wav"
+  },
+  {
+   "id": "4c20406f-6937-49f7-8dcb-39647af926a4",
+   "title": "Slam Dunk",
+   "artist": "FLYIN",
+   "bpm": 126,
+   "file": "epidemic/tracks/slam_dunk__r01.wav",
+   "files": [
+    "epidemic/tracks/slam_dunk__r01.wav"
+   ],
+   "reels": [
+    "r01"
+   ],
+   "note": "edit job b679a530-7ebd-4126-b4d6-c6dc72ea91c1 edit b034f483-9959-46d0-a7e8-df3115719c92 (loopable 37.1s, forced duration, required region 14.2-22.0s at offset 0 so it opens on the drop); #2 by popularity in Epidemic search \"energetic chiptune\""
+  },
+  {
+   "id": "cfdab215-df9a-4df8-bef8-bd812bd59fc6",
+   "title": "HeartBIT",
+   "artist": "Rocket Jr",
+   "bpm": 160,
+   "files": [],
+   "reels": [
+    "m05"
+   ],
+   "file": ""
+  },
+  {
+   "id": "5d1e8414-6c0a-3e7b-a992-e2fc2bb2ceb1",
+   "title": "Rhythmania 1",
+   "artist": "August Wilhelmsson",
+   "bpm": 120,
+   "files": [],
+   "reels": [
+    "m06"
+   ],
+   "file": ""
+  },
+  {
+   "artist": "Nbhd Nick",
+   "bpm": 145,
+   "file": "epidemic/tracks/run_the_show_instrumental_version__m01.wav",
+   "files": [
+    "epidemic/tracks/run_the_show_instrumental_version__m01.wav"
+   ],
+   "id": "8aa2d0be-17d7-4319-8be0-47abe404814d",
+   "reels": [
+    "m01"
+   ],
+   "title": "Run the Show (Instrumental Version)",
+   "note": "edit job 0f6899af-5344-4b3f-9f0a-ff91da2616ef edit b99a64a6-bb79-451e-9e17-b850ed313070 (loopable 56.633s, rotated 18 bars); Oct 30 m01 v2: edit job d915caa1-2afd-4ce4-8e49-5e12831decf4 edit 1678e8b6-45b2-44d1-b1b4-99c8e1f931e0 (loopable 54.567s) now in the file"
+  }
+ ]
+}

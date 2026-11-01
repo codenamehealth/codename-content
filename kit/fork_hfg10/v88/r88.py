@@ -1,0 +1,237 @@
+import sys; sys.path.insert(0, '/tmp/claude-0/-home-claude/3d9a853e-960c-501e-b487-63abffb4f487/scratchpad/fork_a7')
+from common7 import *
+sys.path.insert(0, SP + 'pixellab/safezone'); from hook import hook_layer
+# #88 Don't blink: rc10 review recut (source fork_sz86/v88/r88.py). Bennett loves it: rule/legibility/universal fixes only.
+# rc10: orbs RB 30 -> 40 (64 -> 84px), re-simmed: seed 235, Cleo still escapes on attempt 9 with a SPEED gummy just before.
+import hook as HK
+sys.path.insert(0, SP + 'fork_hfg5'); from hk import hook_fade_segs
+# hfg10 (Oct 29 HOOKFADE brief): soft-fade hook, no boxes, less text.
+# HOLLOW RULE: the Hollow orb is removed from the launch cycle and the roster (4 guides; cycle starts with Cleo so the
+# physics, which never depends on the name, is identical and attempt 9 is still Cleo). GUMMY POWERS: the SPEED UP pickups are all mushroom gummies now.
+import numpy as np
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+NAMES = ['cleo', 'joy', 'cyrus', 'ray']
+LABEL = {'joy': 'JOY', 'cyrus': 'CYRUS', 'cleo': 'CLEO', 'ray': 'RAYLEIGH', 'hollow': 'THE HOLLOW'}
+RING = {'joy': (90, 200, 80), 'cyrus': (255, 160, 40), 'cleo': (90, 150, 255), 'ray': (190, 90, 240), 'hollow': (150, 140, 180)}
+SRC = {'joy': 'char1/char11.png', 'ray': 'char2/char4.png', 'cleo': 'char3/char6.png', 'cyrus': 'char4/char9.png', 'hollow': 'hollow/char1.png'}
+def face(name, rad):
+    im = Image.open(SP + 'syeda_src/' + SRC[name]).convert('RGBA')
+    bb = im.getbbox(); cx = (bb[0] + bb[2]) // 2
+    head = im.crop((cx - 15, 12, cx + 15, 42)).resize((2 * rad - 8, 2 * rad - 8), Image.NEAREST)
+    b = Image.new('RGBA', (2 * rad + 4, 2 * rad + 4), (0, 0, 0, 0)); d = ImageDraw.Draw(b)
+    d.ellipse([2, 2, 2 * rad + 1, 2 * rad + 1], fill=(20, 16, 30, 255)); d.ellipse([4, 4, 2 * rad - 1, 2 * rad - 1], fill=RING[name] + (255,))
+    d.ellipse([9, 9, 2 * rad - 6, 2 * rad - 6], fill=(235, 232, 220, 255))
+    m = Image.new('L', head.size, 0); ImageDraw.Draw(m).ellipse([0, 0, head.width - 1, head.height - 1], fill=255)
+    b.paste(head, (6, 6), Image.composite(head, Image.new('RGBA', head.size, (0, 0, 0, 0)), m).getchannel('A'))
+    d.ellipse([12, 9, 20, 15], fill=(255, 255, 255, 170))
+    return b
+RB = int(os.environ.get("RB", "40"))   # rc10: orbs 64 -> 84px (re-sim)
+ORB = {n: face(n, RB) for n in NAMES}
+def failed(n):
+    # rc10: failed orb = greyed face that keeps its guide-coloured ring + a red X (no 'z' marks: sleep is melatonin's power)
+    im = ORB[n]; g = ImageEnhance.Brightness(ImageEnhance.Color(im).enhance(0.2)).enhance(0.6)
+    d = ImageDraw.Draw(g); w = im.width
+    d.ellipse([2, 2, w - 3, w - 3], outline=(20, 16, 30, 255), width=3); d.ellipse([4, 4, w - 5, w - 5], outline=RING[n] + (255,), width=6)
+    X = Image.new('RGBA', g.size, (0, 0, 0, 0)); dx = ImageDraw.Draw(X); m = w * 0.28
+    for (a, b) in (((m, m), (w - m, w - m)), ((w - m, m), (m, w - m))):
+        dx.line([a, b], fill=(20, 10, 10, 255), width=14)
+    for (a, b) in (((m, m), (w - m, w - m)), ((w - m, m), (m, w - m))):
+        dx.line([a, b], fill=(235, 50, 50, 255), width=8)
+    g.alpha_composite(X); return g
+ORBS = {n: failed(n) for n in NAMES}
+CX, CY = 540, 1060                     # sim runs at the original centre (bit-identical physics), drawn at 494,945
+RINGS = [170, 290, 410]; TH = 16
+LIFE = float(os.environ.get("LIFE","1.3")); SPD = float(os.environ.get("SPD","1000"))
+GK = ['mush', 'acv', 'mel', 'cre']
+GPOS = [(230, 1.0), (350, 3.3), (230, 4.4), (350, 5.6)]   # (radius, angle) gummy spots between rings
+def sim(seed, dur=18.0):
+    rnd = random.Random(seed)
+    spd = [rnd.choice([1, -1]) * rnd.uniform(35, 55), rnd.choice([1, -1]) * rnd.uniform(50, 75), rnd.choice([1, -1]) * rnd.uniform(70, 95)]
+    if spd[0] * spd[1] > 0: spd[1] *= -1
+    if spd[1] * spd[2] > 0: spd[2] *= -1
+    gaps = [math.radians(32), math.radians(27), math.radians(23)]
+    ph0 = [rnd.uniform(0, 6.28) for _ in RINGS]
+    sleepers = []; ball = None; att = 0; frames = []; events = []; esc = None; gum_alive = [True] * 4
+    t_next = 1.2
+    for f in range(int(dur * FPS)):
+        t = f / FPS; dt = 1 / FPS
+        rot = [ph0[i] + math.radians(spd[i]) * t for i in range(3)]
+        if ball is None and esc is None and t >= t_next:
+            n = NAMES[att % 4]; a = rnd.uniform(0, 6.28)
+            ball = dict(n=n, x=CX, y=CY, vx=SPD * math.cos(a), vy=SPD * math.sin(a), t0=t, boost=1.0, trail=[])
+            att += 1; events.append((t, 'launch', n)); gum_alive = [True] * 4
+        if ball is not None:
+            sub = 4
+            for _ in range(sub):
+                b = ball; b['x'] += b['vx'] * dt / sub * b['boost']; b['y'] += b['vy'] * dt / sub * b['boost']
+                px, py = b['x'] - CX, b['y'] - CY; r = math.hypot(px, py) or 1e-6; nx, ny = px / r, py / r
+                for i, R in enumerate(RINGS):
+                    if abs(r - R) < RB + TH / 2:
+                        ang = math.atan2(py, px); da = (ang - rot[i] + math.pi) % (2 * math.pi) - math.pi
+                        if abs(da) > gaps[i] - (RB * 0.8) / R:
+                            vn = b['vx'] * nx + b['vy'] * ny
+                            if (r < R and vn > 0) or (r > R and vn < 0):
+                                b['vx'] -= 2 * vn * nx; b['vy'] -= 2 * vn * ny
+                                ja = rnd.uniform(-0.25, 0.25); c, s = math.cos(ja), math.sin(ja)
+                                b['vx'], b['vy'] = b['vx'] * c - b['vy'] * s, b['vx'] * s + b['vy'] * c
+                                if not events or events[-1][1] != 'bonk' or t - events[-1][0] > 0.08: events.append((t, 'bonk', i))
+                for s in sleepers:
+                    dx, dy = b['x'] - s['x'], b['y'] - s['y']; d = math.hypot(dx, dy)
+                    if 0 < d < 2 * RB:
+                        ux, uy = dx / d, dy / d; vn = b['vx'] * ux + b['vy'] * uy
+                        if vn < 0: b['vx'] -= 2 * vn * ux; b['vy'] -= 2 * vn * uy; events.append((t, 'tap', 0))
+                        b['x'] = s['x'] + ux * 2 * RB; b['y'] = s['y'] + uy * 2 * RB
+                for gi, (gr, ga) in enumerate(GPOS):
+                    if gum_alive[gi]:
+                        gx, gy = CX + gr * math.cos(ga), CY + gr * math.sin(ga)
+                        if math.hypot(b['x'] - gx, b['y'] - gy) < RB + 22:
+                            gum_alive[gi] = False; b['boost'] = min(1.5, b['boost'] + 0.18); events.append((t, 'gum', gi))
+            b['trail'] = (b['trail'] + [(b['x'], b['y'])])[-10:]
+            if math.hypot(b['x'] - CX, b['y'] - CY) > RINGS[-1] + RB + 14:
+                esc = (b['n'], t, att); events.append((t, 'escape', b['n'])); ball = None
+            elif t - b['t0'] > LIFE:
+                sleepers.append(dict(n=b['n'], x=b['x'], y=b['y'], t=t)); events.append((t, 'sleep', b['n'])); ball = None; t_next = t + 0.15
+        frames.append(dict(rot=list(rot), ball=None if ball is None else dict(ball, trail=list(ball['trail'])), sleepers=list(sleepers), att=att, gums=list(gum_alive)))
+        if esc and t > esc[1] + 3.2: break
+    return frames, events, esc, gaps
+def score(seed):
+    fr, ev, esc, g = sim(seed)
+    if not esc: return None
+    n, t, att = esc
+    if n == 'hollow' or not (8 <= att <= 11) or not (11.0 <= t <= 16.0): return None
+    return n, round(t, 2), att
+if __name__ == '__main__' and sys.argv[1] == 'search':
+    for s in range(int(sys.argv[2]), int(sys.argv[3])):
+        r = score(s)
+        if r: print(s, r, flush=True)
+    sys.exit()
+SEED = int(sys.argv[1])
+FR, EV, ESC, GAPS = sim(SEED)
+DXo, DYo = 494 - 540, 945 - 1060; CX, CY = 494, 945     # whole ring field inside the zone (x70-918, y521-1369)
+_seen = set()
+for fr in FR:
+    if fr['ball'] is not None:
+        fr['ball']['x'] += DXo; fr['ball']['y'] += DYo; fr['ball']['trail'] = [(x + DXo, y + DYo) for x, y in fr['ball']['trail']]
+    for sl in fr['sleepers']:
+        if id(sl) not in _seen: _seen.add(id(sl)); sl['x'] += DXo; sl['y'] += DYo
+print('escape', ESC)
+BGF = bg_frames('sun_hd.gif', (W, H), box=(960 - 304, 0, 960 + 304, 1080), step=2, bright=0.52)   # hfg10: temple a touch brighter so it reads as the scene (was 0.42)
+TINT = Image.new('RGBA', (W, H), (40, 20, 70, 90))
+win = ESC[0]; T_ESC = ESC[1]; VICF = vic(win, 300)
+GUM = {k: gummy('mush', 2) for k in GK}   # every speed pickup is a mushroom (Energy) gummy
+def band(lines, accent, sub, subsize=46, color=(255, 214, 60), subcol=(255, 214, 60)):
+    f, s_ = HK._fit([l.upper() for l in lines], HK.X1 - HK.X0 - 40)
+    gap = int(s_ * 0.38); pad = 22; fs = ImageFont.truetype(HK.FONT, subsize)
+    h = len(lines) * s_ + (len(lines) - 1) * gap + 2 * pad + subsize + gap
+    L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
+    d.rounded_rectangle([HK.X0, HK.Y0, HK.X1, HK.Y0 + h], 22, fill=(14, 10, 24, 225), outline=color, width=6)
+    y = HK.Y0 + pad
+    for i, l in enumerate(lines):
+        l = l.upper(); w_ = d.textlength(l, font=f)
+        d.text(((HK.X0 + HK.X1) / 2 - w_ / 2, y), l, font=f, fill=color if accent == i else (255, 255, 255), stroke_width=9, stroke_fill=(10, 6, 18)); y += s_ + gap
+    w_ = d.textlength(sub, font=fs)
+    d.text(((HK.X0 + HK.X1) / 2 - w_ / 2, y), sub, font=fs, fill=subcol, stroke_width=7, stroke_fill=(10, 6, 18))
+    return L, HK.Y0 + h
+HOOK, HB = hook_fade_segs([[("DON'T ", (255, 255, 255)), ('BLINK', (255, 214, 60))]], size=80)   # hfg10: soft fade, COMMENT YOUR PICK cut (caption asks)   # rc10: 46px comment prompt from frame 0 (was the 36px 'UNTIL ONE ESCAPES!')
+print('hook bottom', HB)
+T0F = 34; T0 = T0F / FPS                                   # rc10: start 1.13s in, so the first guide launches on frame 2
+EV = [(te - T0, k, a) for (te, k, a) in EV]; T_ESC -= T0
+for fr in FR:
+    for sl in fr['sleepers']: pass
+END = T_ESC + 1.5; wr = Writer('v88_noaudio.mp4'); out = []   # rc10: win hold 3.2s -> 1.5s, then cut back to frame 0 (loop)
+GSTAMP = []
+for (te, kind, arg) in EV:
+    if kind == 'gum':
+        t1 = max(te, GSTAMP[-1] + 0.75 if GSTAMP else te); GSTAMP.append(t1)
+rr = random.Random(3); STARS = [(rr.uniform(0, W), rr.uniform(380, 1700), rr.uniform(0, 6)) for _ in range(70)]
+for f in range(int(END * FPS)):
+    t = f / FPS; st = FR[min(f + T0F, len(FR) - 1)]
+    img = BGF[int(t * 6) % len(BGF)].copy(); img.alpha_composite(TINT)
+    def deco(d):
+        for (sx, sy, ph) in STARS:
+            a = int(90 + 90 * math.sin(t * 3 + ph)); d.rectangle([sx, sy, sx + 3, sy + 3], fill=(255, 230, 160, max(0, a)))
+        d.ellipse([CX - 470, CY - 470, CX + 470, CY + 470], fill=(10, 6, 22, 120))
+    layer(img, deco)
+    # rings
+    def rings(d):
+        for i, R in enumerate(RINGS):
+            g = math.degrees(GAPS[i]); c = math.degrees(st['rot'][i])
+            a0, a1 = c + g, c + 360 - g
+            for w, col in ((TH + 10, (60, 30, 10, 255)), (TH, (232, 180, 60, 255)), (4, (255, 236, 150, 255))):
+                d.arc([CX - R, CY - R, CX + R, CY + R], a0, a1, fill=col, width=w)
+            # gear teeth
+            nt = int(R / 9)
+            for k in range(nt):
+                ang = math.radians(c + g + (360 - 2 * g) * (k + 0.5) / nt)
+                for rad in (R + TH / 2 + 3, R - TH / 2 - 3):
+                    x, y = CX + rad * math.cos(ang), CY + rad * math.sin(ang)
+                    d.rectangle([x - 3, y - 3, x + 3, y + 3], fill=(200, 140, 40, 255))
+            # glowing gap ends
+            for e in (c + g, c - g):
+                ang = math.radians(e); x, y = CX + R * math.cos(ang), CY + R * math.sin(ang)
+                p = 0.5 + 0.5 * math.sin(t * 8 + i)
+                d.ellipse([x - 13, y - 13, x + 13, y + 13], fill=(255, 250, 200, int(120 + 100 * p)))
+        d.ellipse([CX - 18, CY - 18, CX + 18, CY + 18], fill=(255, 220, 120, 160))
+    layer(img, rings)
+    for gi, (gr, ga) in enumerate(GPOS):
+        if st['gums'][gi] and st['ball'] is not None:
+            g = GUM[GK[gi]]; bob = int(5 * math.sin(t * 5 + gi))
+            img.alpha_composite(g, (int(CX + gr * math.cos(ga) - g.width / 2), int(CY + gr * math.sin(ga) - g.height / 2 + bob)))
+    for s in st['sleepers']:
+        o = ORBS[s['n']]; img.alpha_composite(o, (int(s['x'] - o.width / 2), int(s['y'] - o.height / 2)))
+    b = st['ball']
+    if b:
+        col = RING[b['n']]
+        def tr(d):
+            for i, (x, y) in enumerate(b['trail'][:-1]):
+                a = int(40 + 150 * i / len(b['trail'])); rr_ = 8 + 2 * i
+                d.ellipse([x - rr_, y - rr_, x + rr_, y + rr_], fill=col + (a,))
+        layer(img, tr)
+        o = ORB[b['n']]; img.alpha_composite(o, (int(b['x'] - o.width / 2), int(b['y'] - o.height / 2)))
+        if b['boost'] > 1.01:
+            def spd(d):
+                d.ellipse([b['x'] - RB - 8, b['y'] - RB - 8, b['x'] + RB + 8, b['y'] + RB + 8], outline=(255, 170, 60, 230), width=5)
+                v = math.hypot(b['vx'], b['vy']) or 1; ux, uy = b['vx'] / v, b['vy'] / v; px, py = -uy, ux
+                for k in (-1, 0, 1):
+                    x0, y0 = b['x'] - ux * (RB + 12) + px * k * 16, b['y'] - uy * (RB + 12) + py * k * 16
+                    L = 46 + 18 * (k == 0) + 10 * b['boost']
+                    d.line([x0, y0, x0 - ux * L, y0 - uy * L], fill=(255, 230, 160, 210), width=5)
+            layer(img, spd)
+    # popups
+    # rc10: SPEED! is a big stamp across the top of the field for 0.7s (was a 32px pop next to the pile), never two at once
+    for t1 in GSTAMP:
+        u = t - t1
+        if 0 <= u < 0.7 and t < T_ESC:
+            sc = 1.0 + 0.25 * max(0, 0.12 - u) / 0.12
+            text_layer(img, [(494, HB + 30, 'SPEED!', int(76 * sc), (255, 170, 60), 10, 255)])   # hfg10: no plate
+    # header
+    # roster strip (4 guides) + attempts, one panel under the ring field
+    layer(img, lambda d: d.rectangle([0, 1394, W, 1496], fill=(12, 8, 24, 170)))   # hfg10: edge-to-edge translucent strip, no box
+    for i, n in enumerate(['joy', 'cyrus', 'cleo', 'ray']):
+        o = ORB[n]; img.alpha_composite(o, (int(136 + i * 90 - o.width / 2), 1445 - o.height // 2))
+    text_layer(img, [(670, 1423, 'PICK ONE!' if t < 2.5 else f"ATTEMPT {st['att']}", 44, (255, 214, 60) if t < 2.5 else (255, 255, 255), 7, 255)])   # rc10: 28/32 -> 44px
+    if t >= T_ESC:
+        u = t - T_ESC
+        layer(img, lambda d: d.rectangle([0, 0, W, H], fill=(8, 6, 14, int(150 * min(1, u / 0.3)))))
+        vf = VICF[int(u * 8) % len(VICF)]; img.alpha_composite(vf, (CX - vf.width // 2, 1000 - vf.height))
+        def conf(d):
+            r2 = random.Random(f)
+            for _ in range(50):
+                x, y = r2.uniform(0, W), (r2.uniform(0, H) + u * 600) % H
+                d.rectangle([x, y, x + 10, y + 10], fill=r2.choice([(255, 214, 60), (90, 200, 80), (90, 150, 255), (190, 90, 240), (255, 160, 40)]) + (255,))
+        layer(img, conf)
+        sc = 1.0 + 0.3 * max(0, 0.12 - u) / 0.12
+        text_layer(img, [(CX, 1032, LABEL[win] + ' ESCAPED!', int(56 * sc), (255, 214, 60), 10, 255), (CX, 1118, f'ON TRY {ESC[2]}!', int(56 * sc), (255, 255, 255), 10, 255)])   # hfg10: plate cut   # rc10: 34px lowercase -> 60px
+    img.alpha_composite(HOOK)
+    wr.write(img)
+    if f in (0, 10, int(GSTAMP[0] * FPS) + 3, int(GSTAMP[-1] * FPS) + 3, int(T_ESC * FPS) + 8, int(END * FPS) - 1): img.convert('RGB').save(f'f88_{f}.png')
+wr.close()
+ev = []
+for (te, kind, arg) in EV:
+    if te < 0 or te > END: continue
+    if kind == 'bonk': ev.append((round(te, 3), 'tick_8bit'))
+    elif kind == 'gum': ev.append((round(te, 3), 'powerup_8bit'))
+    elif kind == 'sleep': ev.append((round(te, 3), 'poof'))
+    elif kind == 'escape': ev.append((round(te, 3), 'victory'))
+# rc10: the launch whoosh_8bit (every ~1.45s, a fixed-interval bright SFX) is gone
+json.dump({'events': ev}, open('v88_ev.json', 'w')); print('done', round(END, 2))

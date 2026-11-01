@@ -1,0 +1,138 @@
+"""#54 Put the gummy in the bottle: review recut (fork_rc15). Source fork_c4/v54/r54.py.
+Starts on the cork pop (frame 1), rule as a 44px band line, DID YOU GET IT? on its own dark plate under the band from 5.0s (off the
+gummy's path), white outline + gloss on Syeda's ACV gummy + ACV GUMMY tag on first appearance, Joy stays 6x. Exactly one in-bottle frame."""
+import sys, os
+SP0 = '/tmp/claude-0/-home-claude/3d9a853e-960c-501e-b487-63abffb4f487/scratchpad/'
+OUT = SP0 + 'fork_n9/v54/'
+os.chdir(SP0 + 'fork_b5/v54'); sys.path.insert(0, SP0 + 'fork1'); sys.path.insert(0, SP0 + 'pixellab/safezone'); sys.path.insert(0, SP0 + 'fork_rc2')
+from rc2 import hook_layer2, acv_gloss, acv_tag
+# hfg5: soft fade, no box. Hook = post hook (2 lines, IN THE BOTTLE green); the puzzle's single instruction PAUSE WHEN IT'S IN stays
+# as one 44px line inside the same fade (the hook doesn't say to pause). DID YOU GET IT? plate and the ACV GUMMY tag are cut.
+from hook import hook_fade, _fit as _hfit
+from PIL import ImageDraw as _ID, ImageFont as _IF
+sys.path.insert(0, OUT); from hook54 import HK, HB0   # n9 review2: PAUSE WHEN IT'S / IN THE BOTTLE, same text bottom (row 507)
+HB = 536; print('HB (old layout value kept for the path search)', HB, 'hook text bottom', 507)
+from common import *
+from PIL import ImageFilter
+import numpy as np
+JS = 12
+nat = Image.open('../jar_native.png').convert('RGBA'); a = np.array(nat)
+cork = Image.fromarray(a[0:5].copy()); cork = crop(cork)
+b = a.copy(); b[0:5] = 0
+for x in range(11, 17): b[5, x] = (20, 60, 16, 255)
+OPEN = up(Image.fromarray(b), JS)
+nk = np.array(OPEN); nk[5 * JS:19 * JS, 9 * JS:19 * JS, 3] = (nk[5 * JS:19 * JS, 9 * JS:19 * JS, 3] * 0.55).astype(np.uint8); OPEN_GLASS = Image.fromarray(nk)
+CORK = up(cork, JS); CLOSED = up(nat, JS)
+_cb = Image.fromarray(a[0:5].copy()).getbbox()          # cork's spot in the closed bottle (native px)
+CORK_HOME = None
+BX, BB = 640, 1495
+BT = BB - OPEN.height
+M = (BX - OPEN.width / 2 + 14 * JS, BT + 5 * JS)
+# Syeda's ACV gummy + gloss (reads as a gummy) at 3x; white outline so it reads against the red apples in the tree
+GUM = up(acv_gloss(Image.open(PL + 'gummies/pick_acv.png').convert('RGBA')), 3)
+def outlined(g, r=6, col=(255, 255, 255, 255)):
+    pad = r + 2; c = Image.new('RGBA', (g.width + 2 * pad, g.height + 2 * pad), (0, 0, 0, 0)); c.alpha_composite(g, (pad, pad))
+    m = c.getchannel('A').point(lambda v: 255 if v > 40 else 0).filter(ImageFilter.MaxFilter(2 * r + 1))
+    o = Image.new('RGBA', c.size, col); o.putalpha(m)
+    dk = Image.new('RGBA', c.size, (20, 40, 10, 255)); dk.putalpha(c.getchannel('A').point(lambda v: 255 if v > 40 else 0).filter(ImageFilter.MaxFilter(5)))
+    o.alpha_composite(dk); o.alpha_composite(c); return o
+GUMO = outlined(GUM)
+BG = [up(Image.open('../orchard2/00.png').convert('RGBA'), 3)]
+JK = 6; JX = 268
+def _nt(p, box=(43, 33, 49, 38)):
+    im = Image.open(p).convert('RGBA'); px = im.load()
+    for x in range(box[0], box[2]):
+        for y in range(box[1], box[3]):
+            r, g, b_, al = px[x, y]
+            if al and r > 235 and g > 225 and b_ > 215: px[x, y] = (106, 38, 9, 255)
+    return up(im, JK)
+# n9 (Oct 29 notes2, 'joys smile is creepy'): the old JOY was the PixelLab joy_cast animation with its teeth recoloured to a brown band
+# (_nt), which read as a wide grimace. Now Syeda's own Joy victory pose (vic_Victory_Pose.gif: palm out, staff sparkling), unedited.
+JOY = [up(f.resize((92, 92), Image.NEAREST), JK) for f in gif_frames(A + VIC['joy'])]; JOYI = idle('joy', JK)
+DUR = 10.0; NF = int(DUR * FPS); T_GO = 1.8; T_END = 9.0; T_LOOP = 9.75
+T_CORK0, T_CORK1 = 9.3, 9.55   # n9 review2
+SKIP = 20                      # output frame 0 = source frame 20 (0.667s): cork pops on output frame 1
+T_ASK = 1.0 + SKIP / FPS       # DID YOU GET IT? plate in at 1.0s output time (well before any neck pass, so it cues nothing)
+PL0, PL1 = HB + 10, HB + 88    # prompt plate
+ts = np.arange(NF) / FPS
+rng = np.random.RandomState(11); best = None
+FSTAR = int(6.3 * FPS)
+for trial in range(120000):
+    A1, A2 = rng.uniform(150, 300), rng.uniform(40, 120); w1, w2 = rng.uniform(1.8, 3.6), rng.uniform(3.5, 6.5)
+    C1, w3 = rng.uniform(180, 420), rng.uniform(2.0, 4.0); p = rng.uniform(0, 6.3, 3)
+    gx = A1 * np.sin(w1 * ts + p[0]) + A2 * np.sin(w2 * ts + p[1])
+    gy = -np.abs(C1 * np.sin(w3 * ts + p[2])) + 30 * np.sin(5.1 * ts)
+    gx = gx - gx[FSTAR]; gy = gy - gy[FSTAR]
+    act = (ts >= T_GO) & (ts <= T_END)
+    X, Y = M[0] + gx, M[1] + gy
+    if X[act].min() < 360 or X[act].max() > 985 or Y[act].min() < 536 + 60 or Y[act].max() > M[1] + 80: continue
+    if (X[act & (Y > 1074)] > 850).any(): continue
+    d = np.hypot(X - M[0], Y - M[1]); d[~act] = 1e9; d[FSTAR] = 1e9
+    near = ((d < 140) & act).sum()
+    mn = d.min()
+    if near < 6 or d[FSTAR - 1] < 48 or d[FSTAR + 1] < 48: continue
+    sc = mn
+    if best is None or sc > best[0]: best = (sc, X.copy(), Y.copy(), near)
+print('min miss px', round(best[0], 1), 'near frames', best[3])
+_, PX, PY, _ = best
+print('path min Y', round(PY[(ts >= T_GO) & (ts <= T_END)].min()), 'times above 700:', [round(i/FPS,2) for i in range(NF) if T_GO<=i/FPS<=T_END and PY[i]<700][:1], sum(1 for i in range(NF) if T_GO<=i/FPS<=T_END and PY[i]<700))
+dd = np.hypot(PX - M[0], PY - M[1]); act = (ts >= T_GO) & (ts <= T_END)
+print('near-neck passes (src s):', [round(i / FPS, 2) for i in range(1, NF - 1) if act[i] and dd[i] < 140 and dd[i] <= dd[i - 1] and dd[i] <= dd[i + 1]])
+ev = [(0.7 - SKIP / FPS, 'poof'), (T_GO - 0.3 - SKIP / FPS, 'twinkle'), (round(T_ASK - SKIP / FPS, 3), 'ding_8bit'), (T_END - SKIP / FPS, 'chime')]
+NOUT = NF - SKIP
+wr = Writer(OUT + 'v54_noaudio.mp4')
+for F_ in range(NOUT):
+    f = F_ + SKIP; t = f / FPS
+    img = BG[0].copy()
+    if t >= T_LOOP: t = SKIP / FPS; f = SKIP          # cut back to the opening state (corked, Joy idle)
+    fr = JOY[(f // 3) % len(JOY)] if t > 0.4 else JOYI[(f // 3) % len(JOYI)]
+    img.alpha_composite(fr, (int(JX - fr.width / 2), int(BB - 78 * JK)))
+    staff = (JX + 16 * JK, BB - 57 * JK)   # n9: tip of the flower staff in Syeda's victory pose
+    if t < T_GO:
+        u = max(0, (t - 1.2) / (T_GO - 1.2)); gx, gy = staff[0] + (PX[int(T_GO * FPS)] - staff[0]) * u, staff[1] + (PY[int(T_GO * FPS)] - staff[1]) * u - 120 * math.sin(math.pi * u)
+    elif t <= T_END:
+        k = f; gx, gy = PX[k], PY[k]
+    else:   # n9 review2: no frozen hover; the gummy keeps flying, away from the neck and off the top of the frame
+        ke = int(T_END * FPS); ex, ey = PX[ke], PY[ke]; vx, vy = PX[ke] - PX[ke - 1], PY[ke] - PY[ke - 1]
+        dx, dy = ex - M[0], ey - M[1]; dn = max(1e-6, math.hypot(dx, dy))
+        u = t - T_END; gx = ex + (vx * FPS * 0.5 + dx / dn * 500) * u; gy = ey + (vy * FPS * 0.5 - 900) * u - 2600 * u * u
+    inside = (f == FSTAR)
+    show_g = t > 1.2
+    if inside and show_g:
+        g = GUM; img.alpha_composite(g, (int(gx - g.width / 2), int(gy + 36 - g.height / 2)))
+        img.alpha_composite(OPEN_GLASS, (int(BX - OPEN.width / 2), BT))
+    else:
+        if t < 0.7: img.alpha_composite(CLOSED, (int(BX - OPEN.width / 2), BT))
+        elif t >= T_CORK1 + 0.16: img.alpha_composite(CLOSED, (int(BX - OPEN.width / 2), BT))
+        else:
+            img.alpha_composite(OPEN, (int(BX - OPEN.width / 2), BT))
+            hx, hy = BX - OPEN.width / 2 + _cb[0] * JS + CORK.width / 2, BT + _cb[1] * JS + CORK.height / 2
+            if T_CORK0 <= t < T_CORK1:      # n9 review2: cork drops back in on a short arc (the 0.7s pop in reverse)
+                v = (t - T_CORK0) / (T_CORK1 - T_CORK0); w_ = 1 - v
+                cx, cy = hx + 650 * w_, hy - 1300 * w_ * (1 - w_) - 150 * w_      # comes in from the right on an arc
+                c = CORK.rotate(w_ * 540, expand=True); img.alpha_composite(c, (int(cx - c.width / 2), int(cy - c.height / 2)))
+            elif T_CORK1 <= t < T_CORK1 + 0.16:  # small bounce, then seated
+                bz = 40 * math.sin(math.pi * (t - T_CORK1) / 0.16)
+                img.alpha_composite(CORK, (int(hx - CORK.width / 2), int(hy - CORK.height / 2 - bz)))
+    if 0.7 <= t < 2.2:
+        u = t - 0.7; cx, cy = M[0] + 260 * u, BT - 900 * u + 1500 * u * u
+        c = CORK.rotate(-u * 720, expand=True); img.alpha_composite(c, (int(cx - c.width / 2), int(cy - c.height / 2)))
+        if u < 0.5: text_layer(img, [(M[0] - 40, BT - 140, 'POP!', 64, (255, 214, 60), 9, int(255 * min(1, (0.5 - u) / 0.2)))])   # n9 review2: yellow, dark outline, solid
+    if T_ASK <= t:
+        aa = int(255 * min(1, (t - T_ASK) / 0.15)); s = 1 + 0.25 * max(0, 1 - (t - T_ASK) / 0.15)
+        pass   # hfg5: DID YOU GET IT? plate cut (caption asks)
+    if show_g and not inside:
+        def tether(d):
+            for q in range(10):
+                u = (q / 10 + t * 0.8) % 1; sx, sy = staff[0] + (gx - staff[0]) * u, staff[1] + (gy - staff[1]) * u - 60 * math.sin(math.pi * u)
+                d.rectangle([sx - 5, sy - 5, sx + 5, sy + 5], fill=(160, 255, 120, int(200 * (1 - abs(u - 0.5)))))
+            d.ellipse([gx - 56, gy - 56, gx + 56, gy + 56], fill=(255, 255, 255, 46))
+        layer(img, tether)
+        g = GUMO.rotate(10 * math.sin(t * 7), resample=Image.NEAREST, expand=True); img.alpha_composite(g, (int(gx - g.width / 2), int(gy - g.height / 2)))
+        # hfg5: ACV GUMMY tag cut (the hook says it's the gummy)
+    img.alpha_composite(HK)
+    wr.write(img)
+    if f in (FSTAR - 1, FSTAR, FSTAR + 1) and t > 2: img.convert('RGB').crop((300, 500, 1000, 1500)).save(OUT + f'm_{f - FSTAR:+d}.png')
+    if F_ % 30 == 0 or F_ in (NOUT - 1, 0, 1, 2): img.convert('RGB').save(OUT + f'p_{F_:04d}.png')
+wr.close()
+json.dump({'events': ev}, open(OUT + 'ev54.json', 'w')); print('done, match frame src', FSTAR, 'out', FSTAR - SKIP, round((FSTAR - SKIP) / FPS, 2), 'dur', NOUT / FPS)

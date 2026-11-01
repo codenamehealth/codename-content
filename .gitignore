@@ -1,0 +1,10 @@
+# secrets: API keys live only in the workspace environment, never in the repo
+.token
+*.token
+.env
+# renders and media outputs (finished videos live in Metricool)
+*.mp4
+*.mov
+*.wav
+*.mp3
+__pycache__/

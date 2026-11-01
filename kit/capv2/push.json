@@ -1,0 +1,3359 @@
+[
+{
+"slot": "2026-10-30 19:00",
+"net": "fbig",
+"id": 410756032,
+"uuid": "5520268982795979162",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-14471548758291689239.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-30T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Watch the start one more time 🏁\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nComment QUEST and the link lands in your DMs.",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nComment QUEST and the link lands in your DMs."
+}
+},
+{
+"slot": "2026-10-30 19:00",
+"net": "tt",
+"id": 410756064,
+"uuid": "1741902407531972431",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-7142788701950148153.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-30T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Watch the start one more time 🏁\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nDM us QUEST for the link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Watch the start one more time 🏁\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-10-30 19:00",
+"net": "yt",
+"id": 410756086,
+"uuid": "-1093402785605465206",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-6001646000113030818.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-30T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Watch the start one more time: did you catch the foul? 🏁",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Watch the start one more time 🏁\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-10-30 22:00",
+"net": "fbig",
+"id": 410684558,
+"uuid": "6106776738648310571",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-16990550633477828371.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-30T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "+2 XP. Zero potions left ⚔️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nComment QUEST for the link, we'll DM it to you 🎁",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nComment QUEST for the link, we'll DM it to you 🎁"
+}
+},
+{
+"slot": "2026-10-30 22:00",
+"net": "tt",
+"id": 410684601,
+"uuid": "6431989399489888674",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1760859183502756775.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-30T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "+2 XP. Zero potions left ⚔️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "+2 XP. Zero potions left ⚔️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-10-30 22:00",
+"net": "yt",
+"id": 410684627,
+"uuid": "3797566569377710120",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-7297813835333338178.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-30T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "+2 XP. Zero potions left ⚔️ Most overkill thing you've done in a game?",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "+2 XP. Zero potions left ⚔️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-10-31 12:00",
+"net": "fbig",
+"id": 409328046,
+"uuid": "2540990533283824756",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1498595474301249639.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-31T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10467,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Cleo's victory pose, take 2 🛡️\nThe Vitality guide, sword up. Take 1 was all arms.\nCharacters hand drawn by Syeda Humna 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nComment QUEST and we'll send the link to your DMs 🎁",
+"firstCommentText": "Nintendo Switch 2 giveaway, Feb 1. Free to enter.\nComment QUEST and we'll send the link to your DMs 🎁"
+}
+},
+{
+"slot": "2026-10-31 12:00",
+"net": "tt",
+"id": 409327944,
+"uuid": "9209667095019668972",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1498595474301249639.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-31T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10467,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Cleo's victory pose, take 2 🛡️\nThe Vitality guide, sword up. Take 1 was all arms.\nCharacters hand drawn by Syeda Humna 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Cleo's victory pose, take 2 🛡️\nThe Vitality guide, sword up. Take 1 was all arms.\nCharacters hand drawn by Syeda Humna 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "Nintendo Switch 2 giveaway, Feb 1. Free to enter.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-10-31 12:00",
+"net": "yt",
+"id": 409327997,
+"uuid": "6324574899250413978",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1498595474301249639.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-31T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10467,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Cleo's victory pose, take 2 🛡️ Hand drawn pixel art",
+"type": "short",
+"privacy": "public",
+"category": "FILM_ANIMATION",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Cleo's victory pose, take 2 🛡️\nThe Vitality guide, sword up. Take 1 was all arms.\nCharacters hand drawn by Syeda Humna 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna 🎨"
+}
+},
+{
+"slot": "2026-10-31 13:00",
+"net": "fbig",
+"id": 409347217,
+"uuid": "7055940563347524907",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-2527890666901504521.jpeg"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-31T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "POST"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "POST",
+"showReelOnFeed": true,
+"isAiGenerated": true
+},
+"text": "Happy Halloween from everyone still in the lobby 🎃\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nComment QUEST and we'll DM you the link 🎁",
+"firstCommentText": "Nintendo Switch 2 on Feb 1. It's free to enter, US only, 18+.\nComment QUEST and we'll DM you the link 🎁"
+}
+},
+{
+"slot": "2026-10-31 13:00",
+"net": "tt",
+"id": 409347177,
+"uuid": "3893130791073959366",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-2527890666901504521.jpeg"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-10-31T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Happy Halloween from everyone still in the lobby 🎃",
+"autoAddMusic": true,
+"photoCoverIndex": 0
+},
+"text": "Happy Halloween from everyone still in the lobby 🎃\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Nintendo Switch 2 on Feb 1. It's free to enter, US only, 18+.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-01 10:00",
+"net": "fbig",
+"id": 410597336,
+"uuid": "-1944658012569319335",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-14692802778232838663.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Only 1% can find this Hollow 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway, Feb 1. Free to enter, US only, 18+.\nComment QUEST below and we'll DM you the entry link.",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nComment QUEST below and we'll DM you the entry link."
+}
+},
+{
+"slot": "2026-11-01 10:00",
+"net": "tt",
+"id": 410597354,
+"uuid": "3470467703558194435",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-14432099729813138225.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Only 1% can find this Hollow 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway, Feb 1. Free to enter, US only, 18+.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "Only 1% can find this Hollow 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway, Feb 1. Free to enter, US only, 18+.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-11-01 10:00",
+"net": "yt",
+"id": 410597464,
+"uuid": "-5018025237339946355",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-12278445587152819988.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Only 1% can find this Hollow 👀",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Only 1% can find this Hollow 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-01 12:00",
+"net": "fbig",
+"id": 409328666,
+"uuid": "2705527194864471363",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-2131055397049106577.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10500,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Thornberry Forest, take 2 🌲\nTake 1 was three lollipops and a door.\nThe Realm painted by Liza 🎨\n🎵 Surreal Forest by Meydän, CC BY 4.0\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nComment QUEST and the link lands in your DMs.",
+"firstCommentText": "Nintendo Switch 2 up for grabs Feb 1, free to enter. Five heat winners each month also get a founder box.\nComment QUEST and the link lands in your DMs."
+}
+},
+{
+"slot": "2026-11-01 12:00",
+"net": "tt",
+"id": 409328558,
+"uuid": "-2785602800094658060",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-2131055397049106577.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10500,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Thornberry Forest, take 2 🌲\nTake 1 was three lollipops and a door.\nThe Realm painted by Liza 🎨\n🎵 Surreal Forest by Meydän, CC BY 4.0\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Thornberry Forest, take 2 🌲\nTake 1 was three lollipops and a door.\nThe Realm painted by Liza 🎨\n🎵 Surreal Forest by Meydän, CC BY 4.0\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "Nintendo Switch 2 up for grabs Feb 1, free to enter. Five heat winners each month also get a founder box.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-11-01 12:00",
+"net": "yt",
+"id": 409328601,
+"uuid": "-7384546340333335000",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-2131055397049106577.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10500,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Thornberry Forest, take 2 🌲 Hand drawn pixel art",
+"type": "short",
+"privacy": "public",
+"category": "FILM_ANIMATION",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Thornberry Forest, take 2 🌲\nTake 1 was three lollipops and a door.\nThe Realm painted by Liza 🎨\n🎵 Surreal Forest by Meydän, CC BY 4.0",
+"firstCommentText": "The Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-01 13:00",
+"net": "fbig",
+"id": 409347344,
+"uuid": "-3096937469150477831",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-12139693006279351445.jpeg",
+"https://static.metricool.com/planner/202610/7178389-file-5671922680525549449.jpeg",
+"https://static.metricool.com/planner/202610/7178389-file-7501474405099516668.jpeg"
+],
+"mediaAltText": [
+null,
+null,
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "POST"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "POST",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Who'd you pull? 🃏\nCharacters hand drawn by Syeda Humna 🎨\nNintendo Switch 2, Feb 1. Free to enter, and your marble races every month.\nComment QUEST for the link, we'll DM it to you 🎁",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nComment QUEST for the link, we'll DM it to you 🎁"
+}
+},
+{
+"slot": "2026-11-01 13:00",
+"net": "tt",
+"id": 409347283,
+"uuid": "8225136420306964021",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-12139693006279351445.jpeg",
+"https://static.metricool.com/planner/202610/7178389-file-5671922680525549449.jpeg",
+"https://static.metricool.com/planner/202610/7178389-file-7501474405099516668.jpeg"
+],
+"mediaAltText": [
+null,
+null,
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Who'd you pull? 🃏",
+"autoAddMusic": true,
+"photoCoverIndex": 0
+},
+"text": "Who'd you pull? 🃏\nCharacters hand drawn by Syeda Humna 🎨\nNintendo Switch 2, Feb 1. Free to enter, and your marble races every month.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-01 16:00",
+"net": "fbig",
+"id": 410584672,
+"uuid": "1044777846732964845",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-6463987274186852882.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Pause and match all 4 to reveal your guild 🧪\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nComment QUEST and we'll send the link to your DMs 🎁",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nComment QUEST and we'll send the link to your DMs 🎁"
+}
+},
+{
+"slot": "2026-11-01 16:00",
+"net": "tt",
+"id": 410584747,
+"uuid": "5915602327956835424",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-5822704885929079203.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Pause and match all 4 to reveal your guild 🧪\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "Pause and match all 4 to reveal your guild 🧪\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-11-01 16:00",
+"net": "yt",
+"id": 410584765,
+"uuid": "8480257410822784165",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-10204832646256762537.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Pause and match all 4 to reveal your guild 🧪",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Pause and match all 4 to reveal your guild 🧪\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-01 19:00",
+"net": "fbig",
+"id": 410684969,
+"uuid": "2511962048508412534",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-2653659749465986801.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Guess the guide from the silhouette 🔍\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nComment QUEST and we'll DM you the link 🎁",
+"firstCommentText": "Nintendo Switch 2 giveaway, Feb 1. Free to enter.\nComment QUEST and we'll DM you the link 🎁"
+}
+},
+{
+"slot": "2026-11-01 19:00",
+"net": "tt",
+"id": 410685019,
+"uuid": "1556468952809951105",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-6413442125576641322.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Guess the guide from the silhouette 🔍\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Guess the guide from the silhouette 🔍\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "Nintendo Switch 2 giveaway, Feb 1. Free to enter.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-11-01 19:00",
+"net": "yt",
+"id": 410685057,
+"uuid": "-6719652054135387668",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-17101724647835990685.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Guess the guide from the silhouette 🔍",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Guess the guide from the silhouette 🔍\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-01 22:00",
+"net": "fbig",
+"id": 410685093,
+"uuid": "5066140752340402810",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-4318226695713589908.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Rank the guides 🏆\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nComment QUEST below and we'll DM you the entry link.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nComment QUEST below and we'll DM you the entry link."
+}
+},
+{
+"slot": "2026-11-01 22:00",
+"net": "tt",
+"id": 410685128,
+"uuid": "5371251837746957321",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1926778320620516792.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Rank the guides 🏆\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nDM us QUEST for the link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Rank the guides 🏆\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nDM us QUEST for the link 🎁",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-01 22:00",
+"net": "yt",
+"id": 410685158,
+"uuid": "-5278142475389155176",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-5122923244241815840.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-01T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Rank the guides 🏆 Drop your tier list",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Rank the guides 🏆\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-02 10:00",
+"net": "fbig",
+"id": 410597496,
+"uuid": "-8888055009249506595",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-3603925504655855822.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Find the gummy 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nComment QUEST and the link lands in your DMs.",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nComment QUEST and the link lands in your DMs."
+}
+},
+{
+"slot": "2026-11-02 10:00",
+"net": "tt",
+"id": 410597569,
+"uuid": "-309192829646582712",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-13026327304402892842.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Find the gummy 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "Find the gummy 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-11-02 10:00",
+"net": "yt",
+"id": 410597616,
+"uuid": "8686013892787390039",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-9551891888726970603.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Find the gummy 👀",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Find the gummy 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-02 12:00",
+"net": "fbig",
+"id": 409329201,
+"uuid": "5341269815569238779",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-11795038205536844361.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10200,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Rayleigh, take 2 🌙\nThe Recovery guide, robe, hat and staff. Take 1 had none of those.\nCharacters hand drawn by Syeda Humna 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nComment QUEST for the link, we'll DM it to you 🎁",
+"firstCommentText": "Nintendo Switch 2 up for grabs Feb 1, free to enter. Five heat winners each month also get a founder box.\nComment QUEST for the link, we'll DM it to you 🎁"
+}
+},
+{
+"slot": "2026-11-02 12:00",
+"net": "tt",
+"id": 409329096,
+"uuid": "178494995058607376",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-11795038205536844361.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10200,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Rayleigh, take 2 🌙\nThe Recovery guide, robe, hat and staff. Take 1 had none of those.\nCharacters hand drawn by Syeda Humna 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Rayleigh, take 2 🌙\nThe Recovery guide, robe, hat and staff. Take 1 had none of those.\nCharacters hand drawn by Syeda Humna 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "Nintendo Switch 2 up for grabs Feb 1, free to enter. Five heat winners each month also get a founder box.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-11-02 12:00",
+"net": "yt",
+"id": 409329157,
+"uuid": "1829939251412616436",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-11795038205536844361.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10200,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Rayleigh, take 2 🌙 Hand drawn pixel art",
+"type": "short",
+"privacy": "public",
+"category": "FILM_ANIMATION",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Rayleigh, take 2 🌙\nThe Recovery guide, robe, hat and staff. Take 1 had none of those.\nCharacters hand drawn by Syeda Humna 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna 🎨"
+}
+},
+{
+"slot": "2026-11-02 13:00",
+"net": "fbig",
+"id": 409347491,
+"uuid": "7156879603827231272",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1441388046411768749.jpeg"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "POST"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "POST",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Still waiting on the extra life 🍄\nCharacters hand drawn by Syeda Humna 🎨\nNintendo Switch 2 giveaway, Feb 1. Free to enter, US only, 18+.\nComment QUEST and we'll send the link to your DMs 🎁",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nComment QUEST and we'll send the link to your DMs 🎁"
+}
+},
+{
+"slot": "2026-11-02 13:00",
+"net": "tt",
+"id": 409347439,
+"uuid": "2397769531115785924",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1441388046411768749.jpeg"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Still waiting on the extra life 🍄",
+"autoAddMusic": true,
+"photoCoverIndex": 0
+},
+"text": "Still waiting on the extra life 🍄\nCharacters hand drawn by Syeda Humna 🎨\nNintendo Switch 2 giveaway, Feb 1. Free to enter, US only, 18+.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-02 16:00",
+"net": "fbig",
+"id": 410585139,
+"uuid": "-9160926125426192436",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-7446926275993101871.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Put the gummy in the bottle 🌙\nPause when it drops in.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nComment QUEST and we'll DM you the link 🎁",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nComment QUEST and we'll DM you the link 🎁"
+}
+},
+{
+"slot": "2026-11-02 16:00",
+"net": "tt",
+"id": 410585197,
+"uuid": "6453445702669189790",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-8341553698838437955.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Put the gummy in the bottle 🌙\nPause when it drops in.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "Put the gummy in the bottle 🌙\nPause when it drops in.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-11-02 16:00",
+"net": "yt",
+"id": 410585240,
+"uuid": "-3320675575384423286",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-8657851731871277658.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Put the gummy in the bottle 🌙",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Put the gummy in the bottle 🌙\nPause when it drops in.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-02 19:00",
+"net": "fbig",
+"id": 410685263,
+"uuid": "-4470537398867112903",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-3225761830948004323.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Who outruns the dark? 🌑\nPick a guide before the dark catches up.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2, Feb 1. Free to enter, and your marble races every month.\nComment QUEST below and we'll DM you the entry link.",
+"firstCommentText": "Nintendo Switch 2 giveaway, Feb 1. Free to enter.\nComment QUEST below and we'll DM you the entry link."
+}
+},
+{
+"slot": "2026-11-02 19:00",
+"net": "tt",
+"id": 410685305,
+"uuid": "5597509786806995516",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-13999927951333067984.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Who outruns the dark? 🌑\nPick a guide before the dark catches up.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2, Feb 1. Free to enter, and your marble races every month.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Who outruns the dark? 🌑\nPick a guide before the dark catches up.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2, Feb 1. Free to enter, and your marble races every month.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "Nintendo Switch 2 giveaway, Feb 1. Free to enter.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-11-02 19:00",
+"net": "yt",
+"id": 410685343,
+"uuid": "6519026837465678175",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-4287662777670759594.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Who outruns the dark? Pick a guide 🌑",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Who outruns the dark? 🌑\nPick a guide before the dark catches up.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-02 22:00",
+"net": "fbig",
+"id": 410685517,
+"uuid": "-7637199920589485598",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-14863248184459811337.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "+1 XP a day 📈\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nComment QUEST and the link lands in your DMs.",
+"firstCommentText": "Nintendo Switch 2 on Feb 1. It's free to enter, US only, 18+.\nComment QUEST and the link lands in your DMs."
+}
+},
+{
+"slot": "2026-11-02 22:00",
+"net": "tt",
+"id": 410685551,
+"uuid": "929375747629402942",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-17342021512911837791.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "+1 XP a day 📈\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nDM us QUEST for the link 🎁",
+"photoCoverIndex": 0
+},
+"text": "+1 XP a day 📈\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Nintendo Switch 2 on Feb 1. It's free to enter, US only, 18+.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-02 22:00",
+"net": "yt",
+"id": 410685591,
+"uuid": "4096468882230693599",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-16899611220940685316.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-02T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "+1 XP a day adds up 📈",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "+1 XP a day 📈\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-03 10:00",
+"net": "fbig",
+"id": 410590009,
+"uuid": "-8273041079796807053",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-11404804935560483338.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Which gummy fits the outline? 🧩\nCharacters hand drawn by Syeda Humna 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nComment QUEST for the link, we'll DM it to you 🎁",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nComment QUEST for the link, we'll DM it to you 🎁"
+}
+},
+{
+"slot": "2026-11-03 10:00",
+"net": "tt",
+"id": 410590065,
+"uuid": "-4730698616007080987",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-7759798913071487462.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Which gummy fits the outline? 🧩\nCharacters hand drawn by Syeda Humna 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "Which gummy fits the outline? 🧩\nCharacters hand drawn by Syeda Humna 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-11-03 10:00",
+"net": "yt",
+"id": 410590114,
+"uuid": "-4183701852652941883",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-15953388486946354532.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Which gummy fits the outline? 🧩",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Which gummy fits the outline? 🧩\nCharacters hand drawn by Syeda Humna 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna 🎨"
+}
+},
+{
+"slot": "2026-11-03 12:00",
+"net": "fbig",
+"id": 409329849,
+"uuid": "36001204994917712",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-3578597578433670631.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10500,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Joy's trading card, take 2 🃏\nThe Foundation card from our intro pack.\nCharacters hand drawn by Syeda Humna 🎨\n🎵 Running Waters by Jason Shaw, CC BY 3.0\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nComment QUEST and we'll send the link to your DMs 🎁",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nComment QUEST and we'll send the link to your DMs 🎁"
+}
+},
+{
+"slot": "2026-11-03 12:00",
+"net": "tt",
+"id": 409329727,
+"uuid": "7278962990417005347",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-3578597578433670631.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10500,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Joy's trading card, take 2 🃏\nThe Foundation card from our intro pack.\nCharacters hand drawn by Syeda Humna 🎨\n🎵 Running Waters by Jason Shaw, CC BY 3.0\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Joy's trading card, take 2 🃏\nThe Foundation card from our intro pack.\nCharacters hand drawn by Syeda Humna 🎨\n🎵 Running Waters by Jason Shaw, CC BY 3.0\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-11-03 12:00",
+"net": "yt",
+"id": 409329779,
+"uuid": "1614552896100123576",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-3578597578433670631.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10500,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Joy's trading card, take 2 🃏 Hand drawn pixel art",
+"type": "short",
+"privacy": "public",
+"category": "FILM_ANIMATION",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Joy's trading card, take 2 🃏\nThe Foundation card from our intro pack.\nCharacters hand drawn by Syeda Humna 🎨\n🎵 Running Waters by Jason Shaw, CC BY 3.0",
+"firstCommentText": "Characters hand drawn by Syeda Humna 🎨"
+}
+},
+{
+"slot": "2026-11-03 13:00",
+"net": "fbig",
+"id": 409347633,
+"uuid": "2767722843641236356",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-10235798898345310974.jpeg",
+"https://static.metricool.com/planner/202610/7178389-file-17814208841276261009.jpeg",
+"https://static.metricool.com/planner/202610/7178389-file-15817033841759798220.jpeg"
+],
+"mediaAltText": [
+null,
+null,
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "POST"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "POST",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "First member of the Vitality Guild 🛡️\nCharacters hand drawn by Syeda Humna 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nComment QUEST and we'll DM you the link 🎁",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nComment QUEST and we'll DM you the link 🎁"
+}
+},
+{
+"slot": "2026-11-03 13:00",
+"net": "tt",
+"id": 409347559,
+"uuid": "-3071802142122360809",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-10235798898345310974.jpeg",
+"https://static.metricool.com/planner/202610/7178389-file-17814208841276261009.jpeg",
+"https://static.metricool.com/planner/202610/7178389-file-15817033841759798220.jpeg"
+],
+"mediaAltText": [
+null,
+null,
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "First member of the Vitality Guild 🛡️",
+"autoAddMusic": true,
+"photoCoverIndex": 0
+},
+"text": "First member of the Vitality Guild 🛡️\nCharacters hand drawn by Syeda Humna 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-03 16:00",
+"net": "fbig",
+"id": 410590181,
+"uuid": "-1733379654550272796",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1802611414971346276.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Screenshot the second the gummy fits perfectly 📸\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nComment QUEST below and we'll DM you the entry link.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nComment QUEST below and we'll DM you the entry link."
+}
+},
+{
+"slot": "2026-11-03 16:00",
+"net": "tt",
+"id": 410590231,
+"uuid": "-4373138547466481873",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-17118795830681903160.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Screenshot the second the gummy fits perfectly 📸\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "Screenshot the second the gummy fits perfectly 📸\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-11-03 16:00",
+"net": "yt",
+"id": 410590296,
+"uuid": "656691282945132011",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-15734436927546792990.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Screenshot the second the gummy fits perfectly 📸",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Screenshot the second the gummy fits perfectly 📸\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-03 19:00",
+"net": "fbig",
+"id": 410685801,
+"uuid": "3393374402934949656",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-3706589287268193673.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Only 1% can stop it on the jackpot 🎰\nPause when all 3 match.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway, Feb 1. Free to enter, US only, 18+.\nComment QUEST and the link lands in your DMs.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nComment QUEST and the link lands in your DMs."
+}
+},
+{
+"slot": "2026-11-03 19:00",
+"net": "tt",
+"id": 410685847,
+"uuid": "4617121966184285533",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-2903578488874821935.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Only 1% can stop it on the jackpot 🎰\nPause when all 3 match.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway, Feb 1. Free to enter, US only, 18+.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Only 1% can stop it on the jackpot 🎰\nPause when all 3 match.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway, Feb 1. Free to enter, US only, 18+.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-11-03 19:00",
+"net": "yt",
+"id": 410685884,
+"uuid": "387947675814283719",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-5985114649233017218.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Only 1% can stop it on the jackpot: did you? 🎰",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Only 1% can stop it on the jackpot 🎰\nPause when all 3 match.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-03 22:00",
+"net": "fbig",
+"id": 410686062,
+"uuid": "701545873954130516",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-9269558196439714981.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "NPCs blocking the only path 🛡️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nComment QUEST for the link, we'll DM it to you 🎁",
+"firstCommentText": "Nintendo Switch 2 on Feb 1. It's free to enter, US only, 18+.\nComment QUEST for the link, we'll DM it to you 🎁"
+}
+},
+{
+"slot": "2026-11-03 22:00",
+"net": "tt",
+"id": 410686107,
+"uuid": "-2184200079581560087",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-18203128606466227925.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "NPCs blocking the only path 🛡️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nDM us QUEST for the link 🎁",
+"photoCoverIndex": 0
+},
+"text": "NPCs blocking the only path 🛡️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nOne Nintendo Switch 2, up for grabs Feb 1. Entry is free.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Nintendo Switch 2 on Feb 1. It's free to enter, US only, 18+.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-03 22:00",
+"net": "yt",
+"id": 410686184,
+"uuid": "4319904885249820268",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-4007590137206873438.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-03T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "NPCs blocking the only path 🛡️ Which NPC blocked your path the longest?",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "NPCs blocking the only path 🛡️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-04 10:00",
+"net": "fbig",
+"id": 410590585,
+"uuid": "-3310459806068028263",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-8223343052224153212.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Lock your eyes on the glowing gummy 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2, Feb 1. Free to enter, and your marble races every month.\nComment QUEST and we'll send the link to your DMs 🎁",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nComment QUEST and we'll send the link to your DMs 🎁"
+}
+},
+{
+"slot": "2026-11-04 10:00",
+"net": "tt",
+"id": 410590665,
+"uuid": "-7775538890005265717",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-12361813841052162902.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Lock your eyes on the glowing gummy 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2, Feb 1. Free to enter, and your marble races every month.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "Lock your eyes on the glowing gummy 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2, Feb 1. Free to enter, and your marble races every month.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "Our first grand prize is a Nintendo Switch 2 on Feb 1. Entry is free, no purchase needed.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-11-04 10:00",
+"net": "yt",
+"id": 410590717,
+"uuid": "6932549734447661614",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-4037002113752234833.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T10:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Lock your eyes on the glowing gummy 👀",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Lock your eyes on the glowing gummy 👀\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-04 12:00",
+"net": "fbig",
+"id": 409330205,
+"uuid": "-5537714003631718204",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-7382915857216901994.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10433,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "The Side Quest dragon, take 2 🐉\nCharacters hand drawn by Syeda Humna 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nComment QUEST and we'll DM you the link 🎁",
+"firstCommentText": "Nintendo Switch 2 up for grabs Feb 1, free to enter. Five heat winners each month also get a founder box.\nComment QUEST and we'll DM you the link 🎁"
+}
+},
+{
+"slot": "2026-11-04 12:00",
+"net": "tt",
+"id": 409329928,
+"uuid": "-2926121914980414886",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-7382915857216901994.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10433,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "The Side Quest dragon, take 2 🐉\nCharacters hand drawn by Syeda Humna 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "The Side Quest dragon, take 2 🐉\nCharacters hand drawn by Syeda Humna 🎨\nWin a Nintendo Switch 2 on Feb 1. It's free to get in.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "Nintendo Switch 2 up for grabs Feb 1, free to enter. Five heat winners each month also get a founder box.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-11-04 12:00",
+"net": "yt",
+"id": 409350577,
+"uuid": "2367546411571234330",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-7382915857216901994.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T12:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 10433,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "The Side Quest dragon, take 2 🐉 Pixel art",
+"type": "short",
+"privacy": "public",
+"category": "FILM_ANIMATION",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "The Side Quest dragon, take 2 🐉\nCharacters hand drawn by Syeda Humna 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna 🎨"
+}
+},
+{
+"slot": "2026-11-04 13:00",
+"net": "fbig",
+"id": 409347759,
+"uuid": "7834342740923993156",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-14794796881924446635.jpeg"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "POST"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "POST",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "it was supposed to be one dungeon\nCharacters hand drawn by Syeda Humna 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nComment QUEST below and we'll DM you the entry link.",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nComment QUEST below and we'll DM you the entry link."
+}
+},
+{
+"slot": "2026-11-04 13:00",
+"net": "tt",
+"id": 409347713,
+"uuid": "-4101330567569521919",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-14794796881924446635.jpeg"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T13:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "it was supposed to be one dungeon",
+"autoAddMusic": true,
+"photoCoverIndex": 0
+},
+"text": "it was supposed to be one dungeon\nCharacters hand drawn by Syeda Humna 🎨\nWe're giving away a Nintendo Switch 2 on Feb 1, free to enter.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Switch 2 giveaway on Feb 1. One free entry puts a marble with your name in every monthly race.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-04 16:00",
+"net": "fbig",
+"id": 410597675,
+"uuid": "3018972214036808900",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-10552857427243857638.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Pause the video on 99 ⏸️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nComment QUEST and the link lands in your DMs.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nComment QUEST and the link lands in your DMs."
+}
+},
+{
+"slot": "2026-11-04 16:00",
+"net": "tt",
+"id": 410597733,
+"uuid": "3652536971168728522",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-4268406823569745928.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Pause the video on 99 ⏸️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nDM us QUEST and we'll send you the link.",
+"photoCoverIndex": 0
+},
+"text": "Pause the video on 99 ⏸️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nNintendo Switch 2 giveaway on Feb 1. No purchase needed.\nDM us QUEST and we'll send you the link.",
+"firstCommentText": "We're giving away a Nintendo Switch 2 on Feb 1. Free, no purchase, US only, 18+.\nDM us QUEST and we'll send you the link."
+}
+},
+{
+"slot": "2026-11-04 16:00",
+"net": "yt",
+"id": 410597790,
+"uuid": "3394283695592918597",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-10565944940792239999.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T16:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Pause the video on 99 ⏸️",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Pause the video on 99 ⏸️\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-04 19:00",
+"net": "fbig",
+"id": 410686357,
+"uuid": "-4660382989924809576",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-15604586006238959587.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "The Hollow eats all the glass 🪞\nGuess what's behind it before it's gone.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nComment QUEST for the link, we'll DM it to you 🎁",
+"firstCommentText": "Nintendo Switch 2 giveaway, Feb 1. Free to enter.\nComment QUEST for the link, we'll DM it to you 🎁"
+}
+},
+{
+"slot": "2026-11-04 19:00",
+"net": "tt",
+"id": 410686391,
+"uuid": "5085651568741927021",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1920516340922778752.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "The Hollow eats all the glass 🪞\nGuess what's behind it before it's gone.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nDM us QUEST for the entry link 🎁",
+"photoCoverIndex": 0
+},
+"text": "The Hollow eats all the glass 🪞\nGuess what's behind it before it's gone.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nA Nintendo Switch 2 goes to one of you on Feb 1, and entry is free.\nDM us QUEST for the entry link 🎁",
+"firstCommentText": "Nintendo Switch 2 giveaway, Feb 1. Free to enter.\nDM us QUEST for the entry link 🎁"
+}
+},
+{
+"slot": "2026-11-04 19:00",
+"net": "yt",
+"id": 410686416,
+"uuid": "-5434695878919633175",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-1728511534674967301.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T19:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "The Hollow eats all the glass: what's behind it? 🪞",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "The Hollow eats all the glass 🪞\nGuess what's behind it before it's gone.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+},
+{
+"slot": "2026-11-04 22:00",
+"net": "fbig",
+"id": 410686523,
+"uuid": "4487291682382823875",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-5237943493341508589.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "facebook"
+},
+{
+"network": "instagram"
+}
+],
+"facebookData": {
+"type": "REEL"
+},
+"instagramData": {
+"autoPublish": true,
+"type": "REEL",
+"showReelOnFeed": true,
+"isAiGenerated": false
+},
+"text": "Finally made it to a save point 💾\nYou're doing better than you think.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nComment QUEST and we'll send the link to your DMs 🎁",
+"firstCommentText": "Nintendo Switch 2 on Feb 1. It's free to enter, US only, 18+.\nComment QUEST and we'll send the link to your DMs 🎁"
+}
+},
+{
+"slot": "2026-11-04 22:00",
+"net": "tt",
+"id": 410686550,
+"uuid": "7231203008004833877",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-8939415173139143995.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "tiktok"
+}
+],
+"tiktokData": {
+"privacyOption": "PUBLIC_TO_EVERYONE",
+"title": "Finally made it to a save point 💾\nYou're doing better than you think.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nDM us QUEST for the link 🎁",
+"photoCoverIndex": 0
+},
+"text": "Finally made it to a save point 💾\nYou're doing better than you think.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨\nSwitch 2 on the line Feb 1. One free entry puts your marble in every monthly race.\nDM us QUEST for the link 🎁",
+"firstCommentText": "Nintendo Switch 2 on Feb 1. It's free to enter, US only, 18+.\nDM us QUEST for the link 🎁"
+}
+},
+{
+"slot": "2026-11-04 22:00",
+"net": "yt",
+"id": 410686577,
+"uuid": "1851498649050366465",
+"info": {
+"autoPublish": true,
+"draft": false,
+"hasNotReadNotes": false,
+"media": [
+"https://static.metricool.com/planner/202610/7178389-file-8279283296064773114.mp4"
+],
+"mediaAltText": [
+null
+],
+"publicationDate": {
+"dateTime": "2026-11-04T22:00:00",
+"timezone": "America/New_York"
+},
+"shortener": false,
+"videoCoverMilliseconds": 300,
+"descendants": [],
+"smartLinkData": {
+"ids": []
+},
+"providers": [
+{
+"network": "youtube"
+}
+],
+"youtubeData": {
+"title": "Finally made it to a save point 💾",
+"type": "short",
+"privacy": "public",
+"category": "GAMING",
+"madeForKids": false,
+"isAiGeneratedContent": false
+},
+"text": "Finally made it to a save point 💾\nYou're doing better than you think.\nCharacters hand drawn by Syeda Humna, the Realm painted by Liza 🎨",
+"firstCommentText": "Characters hand drawn by Syeda Humna, the Realm painted by Liza 🎨"
+}
+}
+]

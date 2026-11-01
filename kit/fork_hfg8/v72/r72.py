@@ -1,0 +1,132 @@
+import sys, os; sys.path.insert(0, '/tmp/claude-0/-home-claude/3d9a853e-960c-501e-b487-63abffb4f487/scratchpad/fork_a7')
+from common7 import *
+sys.path.insert(0, SP + 'pixellab/safezone'); from hook import hook_fade
+STILL = os.environ.get('STILL')
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+import math, random
+K = 4; FOOTY = 78 * K
+SRUN = seq(PL + 'race/cleo_run', K); SRUNL = [f.transpose(Image.FLIP_LEFT_RIGHT) for f in SRUN]
+FRUN = seq(PL + 'maze/anim/cleo_frun', K)
+SLIDE = seq(PL + 'maze/anim/cleo_slide', K, 1, 8); SLIDEL = [f.transpose(Image.FLIP_LEFT_RIGHT) for f in SLIDE]
+IDLE = idle('cleo', K)
+GUM = gummy('cre', 4)
+DY = 189                      # whole scene raised 189px so feet stay above y1500
+def TX(x): return 478 + (x - 545.5) * 0.85   # x range 204-887 -> 188-769 (sprites unchanged 4x)
+def TY(y): return y - DY
+def _raise(f):
+    g = Image.new('RGBA', (W, H)); g.paste(f.crop((0, DY, W, H)), (0, 0))
+    g.paste(f.crop((0, H - DY, W, H)).transpose(Image.FLIP_TOP_BOTTOM), (0, H - DY)); return g
+BG = [_raise(f) for f in bg_frames('vit_hd.gif', (W, H), box=(420, 0, 1028, 1080), step=2, bright=0.95)]
+# rc8: comment prompt as a real 52px band line from frame 0; at the question the band itself becomes the question
+# hfg8: soft fade, no box, no 'Comment A, B or C' sub (the A/B/C letters at the question + caption carry it)
+HOOK, HB = hook_fade(['WATCH', 'CAREFULLY'], accent=1, size=72)
+HOOKQ, HBQ = hook_fade(['WHERE IS', 'THE GUMMY?'], accent=1, size=72)
+print('HB', HB, HBQ)
+# ground shading layer
+GROUND = Image.new('RGBA', (W, H), (0, 0, 0, 0)); gd = ImageDraw.Draw(GROUND)
+for y in range(1000 - DY, H):
+    a = int(min(110, (y - 1000 + DY) * 0.14)); gd.line([(0, y), (W, y)], fill=(30, 20, 10, a))
+SEED = int(sys.argv[1]) if len(sys.argv) > 1 else 3
+rng = random.Random(SEED)
+ROW = [(240, 1560), (540, 1560), (840, 1560)]
+T_TUCK, T_MOVE0 = 0.6, 1.25   # rc8: gummy in by ~1.05s (was 2.05s), shuffle from 1.25s (was 2.4s)
+moves = []; t = T_MOVE0; pos = list(ROW); holder = 1
+durs = [1.05, 1.0, 0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.66, 0.62, 0.6]
+for k, dur in enumerate(durs):
+    last = k == len(durs) - 1
+    if last: tgt = list(ROW); rng.shuffle(tgt)
+    else:
+        tgt = []
+        for i in range(3):
+            for _ in range(50):
+                p = (rng.uniform(190, 890), rng.uniform(1230, 1720))
+                if all(math.hypot(p[0] - q[0], p[1] - q[1]) > 260 for q in tgt): break
+            tgt.append(p)
+    ctrl = []
+    for i in range(3):
+        a, b = pos[i], tgt[i]; mx, my = (a[0] + b[0]) / 2, (a[1] + b[1]) / 2
+        nx, ny = -(b[1] - a[1]), b[0] - a[0]; L = math.hypot(nx, ny) or 1
+        bend = rng.uniform(-0.45, 0.45) * math.hypot(b[0] - a[0], b[1] - a[1])
+        ctrl.append((mx + nx / L * bend, my + ny / L * bend))
+    moves.append((t, dur, list(pos), tgt, ctrl)); pos = tgt; t += dur + 0.08
+T_END = t + 0.1
+FINAL = pos  # holder index stays 1 (cleo identity); final slot of cleo 1:
+slot_of = {i: min(range(3), key=lambda s: abs(ROW[s][0] - FINAL[i][0])) for i in range(3)}
+print('holder ends in slot', 'ABC'[slot_of[holder]], 'T_END', round(T_END, 2))
+DUR = T_END + 1.8   # rc8: labels land by T_END+0.3, then 1.5s hold, then loop to the opening (was a 3.4s hold)
+def state(t):
+    """positions, velocities per cleo"""
+    for (t0, dur, a, b, c) in moves:
+        if t0 <= t < t0 + dur + 0.08:
+            u = min(1, (t - t0) / dur); s = u * u * (3 - 2 * u); ds = 6 * u * (1 - u) / dur
+            out = []
+            for i in range(3):
+                x = (1 - s) ** 2 * a[i][0] + 2 * (1 - s) * s * c[i][0] + s * s * b[i][0]
+                y = (1 - s) ** 2 * a[i][1] + 2 * (1 - s) * s * c[i][1] + s * s * b[i][1]
+                vx = (2 * (1 - s) * (c[i][0] - a[i][0]) + 2 * s * (b[i][0] - c[i][0])) * ds
+                vy = (2 * (1 - s) * (c[i][1] - a[i][1]) + 2 * s * (b[i][1] - c[i][1])) * ds
+                out.append((x, y, vx if u < 1 else 0, vy if u < 1 else 0))
+            return out
+    if t < T_MOVE0: return [(p[0], p[1], 0, 0) for p in ROW]
+    return [(p[0], p[1], 0, 0) for p in FINAL]
+wr = Writer('v72_noaudio.mp4'); ev = []; dist = [0.0] * 3; prev = None; sliding = [False] * 3
+# rc8: no whoosh on every move (fixed ~1s metronome); one whoosh as the shuffle starts, a power-up blip on each speed change
+ev.append((round(T_MOVE0, 3), 'whoosh_8bit'))
+SPD = ['', 'x1', 'x1', 'x1.5', 'x1.5', 'x2', 'x2', 'x2', 'x3', 'x3', 'x3', 'x3']
+CHG = [moves[k - 1][0] for k in range(2, 12) if SPD[k] != SPD[k - 1]]
+for tc in CHG: ev.append((round(tc, 3), 'powerup_8bit'))
+print('speed changes', CHG)
+NF = int(round(DUR * FPS))
+for f in range(NF):
+    t = f / FPS; st = state(t)
+    img = BG[int(t * 4) % len(BG)].copy(); img.alpha_composite(GROUND)
+    if prev:
+        for i in range(3): dist[i] += math.hypot(st[i][0] - prev[i][0], st[i][1] - prev[i][1])
+    prev = st
+    # slide only while passing through another Cleo: the faster one slides
+    for i in range(3):
+        sp = math.hypot(st[i][2], st[i][3]); near = False
+        for j in range(3):
+            if j != i and math.hypot(st[i][0] - st[j][0], (st[i][1] - st[j][1]) * 1.4) < 170 and sp > math.hypot(st[j][2], st[j][3]) and sp > 200: near = True
+        if near and not sliding[i]: ev.append((round(t, 3), 'jump'))
+        sliding[i] = near
+    layer(img, lambda dd: [dd.ellipse([TX(x) - 66, TY(y) - 14, TX(x) + 66, TY(y) + 14], fill=(0, 0, 0, 90)) for (x, y, vx, vy) in st])
+    for i in sorted(range(3), key=lambda i: st[i][1]):
+        x, y, vx, vy = st[i]; sp = math.hypot(vx, vy)
+        if sp < 30: spr = IDLE[(int(t * 8) + i * 2) % len(IDLE)]
+        elif sliding[i]: spr = (SLIDEL if vx < 0 else SLIDE)[min(6, int(t * 14) % 7)]
+        elif vy > 0.75 * sp: spr = FRUN[int(dist[i] / 30) % 8]
+        else: spr = (SRUNL if vx < 0 else SRUN)[int(dist[i] / 30) % 8]
+        img.alpha_composite(spr, (int(TX(x) - spr.width / 2), int(TY(y) - FOOTY)))
+    # the gummy: shown, then tucked behind the middle Cleo's shield
+    if t < T_TUCK + 0.45:
+        gx, gy = 540, 1130 + 70 * min(1, t / T_TUCK) + 10 * math.sin(t * 4)   # rc8: drifting down into Cleo from frame 0
+        if t > T_TUCK:
+            u = (t - T_TUCK) / 0.45; gx, gy = 540 - 50 * u, 1200 + 110 * u; sc = 1 - 0.7 * u
+            g = up(GUM, sc) if sc > 0.3 else up(GUM, 0.3)
+        else: g = GUM
+        gx, gy = TX(gx), TY(gy)
+        layer(img, lambda dd: dd.ellipse([gx - 80, gy - 80, gx + 80, gy + 80], fill=(255, 200, 220, 50)))
+        img.alpha_composite(g, (int(gx - g.width / 2), int(gy - g.height / 2)))
+    if abs(t - T_TUCK) < 0.5 / FPS: ev.append((round(t, 3), 'twinkle'))
+    # rc8: line under the band 46px (was 38px); speed changes pop as a big 66px gold stamp in the same box for 0.45s
+    by0 = HB + 14; stamp = 0
+    if t < T_MOVE0: msg = None   # hfg8: 'Remember the gummy' cut (repeats the hook)
+    elif t < T_END:
+        k = sum(1 for m in moves if m[0] <= t); msg, col = 'SPEED ' + SPD[min(k, 11)], (255, 214, 60)
+        for tc in CHG:
+            if tc <= t < tc + 0.45: stamp = 1 - (t - tc) / 0.45
+    else: msg = None
+    # hfg8: the permanent boxed SPEED line is gone; each speed change still pops as an unboxed gold stamp for 0.45s
+    if msg and stamp:
+        sz = 72 + int(10 * min(1, stamp * 3))
+        text_layer(img, [(547, 640 - sz / 2, msg, sz, (255, 150, 40), 9, 255)])   # on the wall, clear of the hook, orange so it doesn't read as a 3rd hook line
+    if t >= T_END:
+        a = int(255 * min(1, (t - T_END) / 0.3))
+        for s_, L in enumerate('ABC'):
+            text_layer(img, [(TX(ROW[s_][0]), TY(ROW[s_][1]) + 40, L, 64, (255, 214, 60), 8, a)])
+        if abs(t - T_END) < 0.5 / FPS: ev.append((round(t, 3), 'ding_8bit'))
+    img.alpha_composite(HOOK if t < T_END else HOOKQ)
+    if STILL and f in [int(x) for x in STILL.split(',')]: img.convert('RGB').save(f'k72_{f}.png')
+    wr.write(img)
+wr.close(); json.dump({'events': ev}, open('v72_ev.json', 'w')); print('done', round(DUR, 2), len(ev))

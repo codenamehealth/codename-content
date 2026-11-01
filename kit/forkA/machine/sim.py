@@ -1,0 +1,72 @@
+import pymunk, math, random
+NAMES = ['joy', 'cyrus', 'cleo', 'ray', 'hollow']
+GX, GY, GR = 540, 1010, 420           # globe
+CUPX, CUPY = 540, 930                  # cup rim centre
+HUBY = GY + GR - 110                   # agitator hub
+BR = 25                                # ball radius
+FPS = 30
+def run(seed, cap=200, tmax=31.0, record=True):
+    rnd = random.Random(seed)
+    sp = pymunk.Space(); sp.gravity = (0, 1500); sp.iterations = 12
+    st = sp.static_body
+    N = 90
+    for i in range(N):
+        a1, a2 = 2 * math.pi * i / N, 2 * math.pi * (i + 1) / N
+        s = pymunk.Segment(st, (GX + GR * math.cos(a1), GY + GR * math.sin(a1)), (GX + GR * math.cos(a2), GY + GR * math.sin(a2)), 6)
+        s.elasticity = 0.85; s.friction = 0.3; sp.add(s)
+    cupsegs = [((CUPX - 70, CUPY - 46), (CUPX - 52, CUPY + 14)), ((CUPX - 52, CUPY + 14), (CUPX + 52, CUPY + 14)), ((CUPX + 52, CUPY + 14), (CUPX + 70, CUPY - 46)),
+               ((CUPX, CUPY + 14), (CUPX, HUBY - 8))]
+    for a, b in cupsegs:
+        s = pymunk.Segment(st, a, b, 6); s.elasticity = 0.6; s.friction = 0.4; sp.add(s)
+    # agitator paddle (kinematic, spinning)
+    ag = pymunk.Body(body_type=pymunk.Body.KINEMATIC); ag.position = (GX, HUBY); ag.angular_velocity = 5.5
+    sp.add(ag)
+    for k in range(2):
+        a = k * math.pi
+        s = pymunk.Segment(ag, (0, 0), (175 * math.cos(a), 175 * math.sin(a)), 9); s.elasticity = 1.0; s.friction = 0.6; sp.add(s)
+    balls = []; born = {}; T = 0.0
+    def add(n, x, y, vx, vy):
+        b = pymunk.Body(1, pymunk.moment_for_circle(1, 0, BR)); b.position = (x, y); b.velocity = (vx, vy)
+        c = pymunk.Circle(b, BR); c.elasticity = 0.82; c.friction = 0.2; sp.add(b, c); balls.append((n, b, c)); born[id(b)] = T
+    spots = [(GX + dx, GY - 280 + j * 60) for j in range(3) for dx in (-300, -230, -160, -95, 95, 160, 230, 300)]
+    rnd.shuffle(spots); si = 0
+    for n in NAMES:
+        for j in range(3):
+            x, y = spots[si]; si += 1
+            add(n, x + rnd.uniform(-12, 12), y + rnd.uniform(-8, 8), rnd.uniform(-250, 250), rnd.uniform(-100, 100))
+    frames = []; events = []; counts = {n: 3 for n in NAMES}; lead = []; cool = 0.0
+    T = 0.0; dt = 1 / FPS; sub = 4
+    pending = []
+    while T < tmax:
+        # burst spawns queued over a few frames so they do not overlap
+        if pending:
+            n, left = pending[0]
+            for _ in range(min(3, left)):
+                sd = rnd.choice([-1, 1]); add(n, CUPX + sd * rnd.uniform(20, 50), CUPY - 80 + rnd.uniform(-10, 10), sd * rnd.uniform(350, 800), rnd.uniform(-1000, -600))
+                counts[n] += 1; left -= 1
+            if left: pending[0] = (n, left)
+            else: pending.pop(0)
+        for _ in range(sub): sp.step(dt / sub)
+        if rnd.random() < 0.02: ag.angular_velocity = rnd.choice([5.5, 6.2, -5.8])
+        # cup hits
+        for item in list(balls):
+            n, b, c = item
+            x, y = b.position
+            if abs(x - CUPX) < 50 and CUPY - 40 < y < CUPY + 12 and T > cool and T - born[id(b)] > 1.2 and sum(counts.values()) < cap:
+                sp.remove(b, c); balls.remove(item); counts[n] -= 1
+                share = counts[n] / max(1, sum(counts.values())); k = max(2, round(rnd.randint(5, 10) * (1.25 - share)))
+                pending.append((n, k + 1)); events.append((round(T, 3), 'cup', n, k + 1)); cool = T + 0.45
+        tot = sum(counts.values())
+        mx = max(counts.values()); ld = [n for n in NAMES if counts[n] == mx]
+        if len(ld) == 1 and (not lead or lead[-1] != ld[0]): lead.append(ld[0])
+        if record: frames.append(([(n, b.position.x, b.position.y) for n, b, c in balls], dict(counts), ag.angle))
+        T += dt
+        if tot >= cap and not pending: break
+        if tot >= cap: pending.clear()
+    return frames, events, counts, lead, T
+if __name__ == '__main__':
+    import sys
+    for seed in range(int(sys.argv[1]), int(sys.argv[2])):
+        fr, ev, cnt, ld, T = run(seed, record=False)
+        s = sorted(cnt.values(), reverse=True)
+        print(seed, round(T, 1), len(ev), cnt, 'leads', len(ld), ld[-3:], flush=True)
