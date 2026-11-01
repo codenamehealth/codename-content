@@ -10,3 +10,7 @@ Code Name Health reel production kit: build scripts, rules docs, competitor data
 
 API keys (PixelLab, Epidemic) are set in each session's environment and are never committed.
 Missing from the kit: the sound effects library (`sfx_adobe/`) and `pixellab/maze/walls_sheet.png`.
+
+## Guide sprites (art/syeda_guides)
+Folder to guide mapping (Bennett, Nov 1): char1 = Joy, char2 = Rayleigh, char3 = Cleo, char4 = Cyrus.
+Use the GIF1X / gif1x files (native pixel size) as the source for Godot and PixelLab; never the 10x files.
